@@ -2,6 +2,8 @@
 permalink: /research/
 ---
 
+# Research
+
 My PhD research focuses on train maintenance and railway traffic management. I work with the French railway company SNCF to optimize their use of resources by exploiting tools from machine learning and operations research.
 
 - [Google Scholar profile](https://scholar.google.com/citations?user=d5HjFgUAAAAJ&hl=en)

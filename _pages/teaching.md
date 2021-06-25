@@ -2,6 +2,8 @@
 permalink: /teaching/
 ---
 
+# Teaching
+
 ## Project supervision
 
 ## Courses
