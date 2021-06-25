@@ -17,7 +17,7 @@ In addition to my research, I like to teach mathematics to undergraduate and gra
 
 | Year | Project                                                                   | Links                                                                                                                                                                        |
 | ---- | ------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 2020 | Student challenge ("hackathon") on train shunting, co-organized with SNCF | [KIRO](https://kiro.enpc.org/)                                                                                                                                               |
+| 2021 | Student challenge ("hackathon") on train shunting, co-organized with SNCF | [KIRO](https://kiro.enpc.org/)                                                                                                                                               |
 | 2020 | Operations research group project on large-scale inventory routing        | [LinkedIn](https://www.linkedin.com/posts/aim%C3%A9-fr%C3%A9d%C3%A9ric-rosenzweig-1bab4162_challenge-recherche-op%C3%A9rationnelle-supply-activity-6767114742143193088-1cBV) |
 | 2020 | Computer science group project on multimodal transit routing              | [GitHub](https://github.com/gdalle/Projet-MOPSI-2020), [video](https://www.youtube.com/watch?v=bQ0FSKwVTw0)                                                                  |
 | 2019 | Modeling project on train shunting                                        |
