@@ -18,12 +18,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Guillaume Dalle
+title: Math4Railways
 # subtitle: "My research website."
-masthead_title: "My research website"
+masthead_title: "Math4Railways"
 # logo: "/assets/images/triangle.png"
 description: >- # this means to ignore newlines until "baseurl:"
-  My research website
+  Research website of Guillaume Dalle, PhD student.
 email: guillaume.dalle@enpc.fr
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://gdalle.github.io" # the base hostname & protocol for your site, e.g. http://example.com
