@@ -2,11 +2,9 @@
 permalink: /teaching/
 ---
 
-# Teaching
+# Project supervision
 
-## Project supervision
-
-## Courses
+# Courses
 
 | Years     | Place                                        | Course                                                                 |
 | --------- | -------------------------------------------- | ---------------------------------------------------------------------- |
@@ -15,11 +13,11 @@ permalink: /teaching/
 | 2016-2017 | Lycées Louis-le-Grand & Henri IV (Paris)     | Oral examiner in mathematics for first-year undergraduate students     |
 | 2015-2016 | Lycée Jean-Baptiste Corot (Savigny-sur-Orge) | Science teaching intern for high-school and undergraduate students     |
 
-## Tutorials
+# Tutorials
 
 - A hands-on [introduction](https://github.com/gdalle/IntroJulia) to the Julia programming language
 
-## Mathematics exercises (in French)
+# Mathematics exercises (in French)
 
 - A selection of [exercises for first-year undergrads](../assets/pdfs/Mes%20colles%20MPSI.pdf)
 - A selection of [exercises for second-year undergrads](../assets/pdfs/Mes%20colles%20MP.pdf)

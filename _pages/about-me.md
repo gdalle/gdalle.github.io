@@ -2,9 +2,7 @@
 permalink: /about-me/
 ---
 
-# About me
-
-## Professional experience
+# Professional experience
 
 | Year | Job                                                                                  | Place                      |
 | ---- | ------------------------------------------------------------------------------------ | -------------------------- |
@@ -12,7 +10,7 @@ permalink: /about-me/
 | 2018 | Research internship on soiling prediction and cleaning optimization for solar panels | EDF R&D (Chatou)           |
 | 2017 | Algorithmic development internship on timetable optimization for universities        | Foris (Santiago, Chile)    |
 
-## Education
+# Education
 
 | Year      | Diploma                                                | Place                                 |
 | --------- | ------------------------------------------------------ | ------------------------------------- |
@@ -23,7 +21,7 @@ permalink: /about-me/
 | 2013-2015 | Scientific preparatory classes (MPSI-MP\*)             | Lycée Louis-le-Grand (Paris)          |
 | 2010-2013 | Bilingual French-German high-school curriculum         | Lycée Jeanne d'Arc (Clermont-Ferrand) |
 
-## Research friends
+# Research friends
 
 - [Éloïse Berthier](https://www.di.ens.fr/eloise.berthier/)
 - [Pierre Marion](https://pierremarion23.github.io/)
