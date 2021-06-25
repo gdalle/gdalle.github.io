@@ -39,10 +39,12 @@ include: ["_pages"]
 # Build settings
 # theme: minima
 theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
 search: true
 plugins:
   - jekyll-feed
+  - jekyll-include-cache
 
 
 name: Guillaume Dalle
