@@ -2,7 +2,7 @@
 permalink: /teaching/
 ---
 
-# Project supervision
+In addition to my research, I like to teach mathematics to undergraduate and graduate students.
 
 # Courses
 
