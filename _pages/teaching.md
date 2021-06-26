@@ -1,5 +1,6 @@
 ---
 permalink: /teaching/
+title: Teaching
 ---
 
 In addition to my research, I like to teach mathematics to undergraduate and graduate students.

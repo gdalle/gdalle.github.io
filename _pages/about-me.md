@@ -1,5 +1,6 @@
 ---
 permalink: /about-me/
+title: About me
 ---
 
 I am a member of the "Corps des Ponts, des Eaux et des Forêts", a corps of high civil servants at the French ministry of ecology.
