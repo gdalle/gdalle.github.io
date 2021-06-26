@@ -1,6 +1,7 @@
 ---
 layout: home
 author_profile: true
+subtitle: Not the research website you deserve, but the one you need right now
 ---
 
 I'm a second-year PhD student at CERMICS (École des Ponts ParisTech) under the supervision of Yohann De Castro and Axel Parmentier.

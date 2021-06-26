@@ -10,9 +10,7 @@ title: Research
 
 I enjoy trying to get non-mathematicians interested in my research. Below, you will find the video of my 3-minute thesis presentation (in French):
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/RZcCpf8IHGo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<br>
+{% include video id="RZcCpf8IHGo" provider="youtube" %}
 
 # Preprints
 
