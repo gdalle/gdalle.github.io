@@ -85,6 +85,9 @@ defaults:
       layout: single
       author_profile: true
 
+atom_feed:
+  hide: true
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
