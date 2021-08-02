@@ -28,3 +28,4 @@ I am a member of the "Corps des Ponts, des Eaux et des Forêts", a corps of high
 
 - [Éloïse Berthier](https://www.di.ens.fr/eloise.berthier/)
 - [Pierre Marion](https://pierremarion23.github.io/)
+- [Clément Mantoux](https://cmantoux.github.io/)
