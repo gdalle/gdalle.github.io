@@ -23,12 +23,7 @@ In addition to my research, I like to teach mathematics to undergraduate and gra
 | 2020 | Computer science group project on multimodal transit routing              | [GitHub](https://github.com/gdalle/Projet-MOPSI-2020), [video](https://www.youtube.com/watch?v=bQ0FSKwVTw0)                                                                  |
 | 2019 | Modeling project on train shunting                                        |
 
-# Tutorials
+# Shared resources
 
-- A hands-on [introduction](https://github.com/gdalle/IntroJulia) to the Julia programming language
-
-# Mathematics exercises (in French)
-
-- A selection of [exercises for first-year undergrads](../assets/pdfs/Mes%20colles%20MPSI.pdf)
-- A selection of [exercises for second-year undergrads](../assets/pdfs/Mes%20colles%20MP.pdf)
-- A selection of [exercises in probability theory](../assets/pdfs/Mes%20exos%20probas.pdf)
+- A hands-on introduction to [Julia for operations research](https://gdalle.github.io/JuliaOperationsResearch) 
+- A selection of maths exercises (in French) for [first-year undergrads](../assets/pdfs/Mes%20colles%20MPSI.pdf), [second-year undergrads](../assets/pdfs/Mes%20colles%20MP.pdf) or with a focus on [probability theory](../assets/pdfs/Mes%20exos%20probas.pdf)
