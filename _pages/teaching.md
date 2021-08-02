@@ -5,7 +5,7 @@ title: Teaching
 
 In addition to my research, I like to teach mathematics to undergraduate and graduate students.
 
-# Courses
+## Courses
 
 | Year      | Place                                        | Course                                                                 |
 | --------- | -------------------------------------------- | ---------------------------------------------------------------------- |
@@ -14,7 +14,7 @@ In addition to my research, I like to teach mathematics to undergraduate and gra
 | 2016-2017 | Lycées Louis-le-Grand & Henri IV (Paris)     | Oral examiner in mathematics for first-year undergraduate students     |
 | 2015-2016 | Lycée Jean-Baptiste Corot (Savigny-sur-Orge) | Science teaching intern for high-school and undergraduate students     |
 
-# Student project supervision
+## Student project supervision
 
 | Year | Project                                                                   | Links                                                                                                                                                                        |
 | ---- | ------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -23,7 +23,7 @@ In addition to my research, I like to teach mathematics to undergraduate and gra
 | 2020 | Computer science group project on multimodal transit routing              | [GitHub](https://github.com/gdalle/Projet-MOPSI-2020), [video](https://www.youtube.com/watch?v=bQ0FSKwVTw0)                                                                  |
 | 2019 | Modeling project on train shunting                                        |
 
-# Shared resources
+## Shared resources
 
 - A hands-on introduction to [Julia for operations research](https://gdalle.github.io/JuliaOperationsResearch) 
 - A selection of maths exercises (in French) for [first-year undergrads](../assets/pdfs/Mes%20colles%20MPSI.pdf), [second-year undergrads](../assets/pdfs/Mes%20colles%20MP.pdf) or with a focus on [probability theory](../assets/pdfs/Mes%20exos%20probas.pdf)
