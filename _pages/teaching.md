@@ -3,7 +3,8 @@ permalink: /teaching/
 title: Teaching
 ---
 
-In addition to my research, I like to teach mathematics to undergraduate and graduate students.
+In addition to my research, I teach mathematics to undergraduate and graduate students. I am currently working on a hands-on [introduction to Julia](https://gdalle.github.io/IntroJulia), feel free to take a look and give me feedback! 
+
 
 ## Courses
 
@@ -23,7 +24,8 @@ In addition to my research, I like to teach mathematics to undergraduate and gra
 | 2020 | Computer science group project on multimodal transit routing              | [GitHub](https://github.com/gdalle/Projet-MOPSI-2020), [video](https://www.youtube.com/watch?v=bQ0FSKwVTw0)                                                                  |
 | 2019 | Modeling project on train shunting                                        |
 
-## Shared resources
+## Miscellaneous
 
-- A hands-on introduction to [Julia for operations research](https://gdalle.github.io/JuliaOperationsResearch) 
-- A selection of maths exercises (in French) for [first-year undergrads](../assets/pdfs/Mes%20colles%20MPSI.pdf), [second-year undergrads](../assets/pdfs/Mes%20colles%20MP.pdf) or with a focus on [probability theory](../assets/pdfs/Mes%20exos%20probas.pdf)
+Here is a selection of documents that I wrote:
+
+- Some maths exercises (in French) for [first-year undergrads](../assets/pdfs/Mes%20colles%20MPSI.pdf), [second-year undergrads](../assets/pdfs/Mes%20colles%20MP.pdf) or with a focus on [probability theory](../assets/pdfs/Mes%20exos%20probas.pdf)
