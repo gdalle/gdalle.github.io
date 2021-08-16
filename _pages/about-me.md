@@ -5,7 +5,7 @@ title: About me
 
 I am a member of the "Corps des Ponts, des Eaux et des Forêts", a corps of high civil servants at the French ministry of ecology.
 
-# Professional experience
+## Professional experience
 
 | Year | Job                                                                                  | Place                      |
 | ---- | ------------------------------------------------------------------------------------ | -------------------------- |
@@ -13,7 +13,7 @@ I am a member of the "Corps des Ponts, des Eaux et des Forêts", a corps of high
 | 2018 | Research internship on soiling prediction and cleaning optimization for solar panels | EDF R&D (Chatou)           |
 | 2017 | Algorithmic development internship on timetable optimization for universities        | Foris (Santiago, Chile)    |
 
-# Education
+## Education
 
 | Year      | Diploma                                                | Place                                 |
 | --------- | ------------------------------------------------------ | ------------------------------------- |
@@ -24,7 +24,8 @@ I am a member of the "Corps des Ponts, des Eaux et des Forêts", a corps of high
 | 2013-2015 | Scientific preparatory classes (MPSI-MP\*)             | Lycée Louis-le-Grand (Paris)          |
 | 2010-2013 | Bilingual French-German high-school curriculum         | Lycée Jeanne d'Arc (Clermont-Ferrand) |
 
-# Research friends
+## Research friends
 
 - [Éloïse Berthier](https://www.di.ens.fr/eloise.berthier/)
 - [Pierre Marion](https://pierremarion23.github.io/)
+- [Clément Mantoux](https://cmantoux.github.io/)
