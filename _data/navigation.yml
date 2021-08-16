@@ -3,5 +3,7 @@ main:
     url: /research/
   - title: "Teaching"
     url: /teaching/
+  - title: "PhD Resources"
+    url: /phd-resources/
   - title: "About me"
     url: /about-me/
