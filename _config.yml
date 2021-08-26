@@ -52,8 +52,11 @@ author:
   name     : "Guillaume Dalle"
   avatar   : "/assets/images/photo_small.jpg"
   bio      : "PhD student in machine learning and operations research."
-  location : "[CERMICS - ENPC](https://cermics-lab.enpc.fr/)"
+  location : "CERMICS - ENPC"
   links:
+    - label: "Website"
+      icon: "fas fa-globe"
+      url: "https://gdalle.github.io/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/gdalle"
