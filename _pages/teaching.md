@@ -26,6 +26,17 @@ In addition to my research, I teach mathematics to undergraduate and graduate st
 
 ## Miscellaneous
 
-Here is a selection of documents that I wrote:
+### 🇫🇷 Exercices de mathématiques
 
-- Some maths exercises (in French) for [first-year undergrads](../assets/pdfs/Mes%20colles%20MPSI.pdf), [second-year undergrads](../assets/pdfs/Mes%20colles%20MP.pdf) or with a focus on [probability theory](../assets/pdfs/Mes%20exos%20probas.pdf)
+Voici une sélection de documents pédagogiques rédigés en français :
+
+#### Lycée
+
+- Préparation au Concours Général de mathématiques : [énoncé 1](../assets/pdfs/Exos%20CG%201.pdf), [corrigé 1](../assets/pdfs/Correction%20CG%201.pdf), [énoncé 2](../assets/pdfs/Exos%20CG%201.pdf), [corrigé 2](../assets/pdfs/Correction%20CG%201.pdf)
+
+#### Classes préparatoires
+
+- Exercices de mathématiques [niveau MPSI](../assets/pdfs/Mes%20colles%20MPSI.pdf)
+- Exercices de mathématiques [niveau MP*](../assets/pdfs/Mes%20colles%20MP.pdf)
+- Exercices de probabilités [niveau MPSI-MP*](../assets/pdfs/Mes%20exos%20probas.pdf)
+- Compilation d'[oraux Centrale-Supélec avec Python](../assets/pdfs/Centrale%20Python.pdf)
