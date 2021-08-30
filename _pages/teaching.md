@@ -3,8 +3,7 @@ permalink: /teaching/
 title: Teaching
 ---
 
-In addition to my research, I teach mathematics to undergraduate and graduate students. I am currently working on a hands-on [introduction to Julia](https://gdalle.github.io/IntroJulia), feel free to take a look and give me feedback! 
-
+In addition to my research, I teach mathematics to undergraduate and graduate students. I am currently working on a hands-on [introduction to Julia](https://gdalle.github.io/IntroJulia), feel free to take a look and give me feedback!
 
 ## Courses
 
@@ -17,12 +16,13 @@ In addition to my research, I teach mathematics to undergraduate and graduate st
 
 ## Student project supervision
 
-| Year | Project                                                                   | Links                                                                                                                                                                        |
-| ---- | ------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 2021 | Student challenge ("hackathon") on train shunting, co-organized with SNCF | [KIRO](https://kiro.enpc.org/)                                                                                                                                               |
-| 2020 | Operations research group project on large-scale inventory routing        | [LinkedIn](https://www.linkedin.com/posts/aim%C3%A9-fr%C3%A9d%C3%A9ric-rosenzweig-1bab4162_challenge-recherche-op%C3%A9rationnelle-supply-activity-6767114742143193088-1cBV) |
-| 2020 | Computer science group project on multimodal transit routing              | [GitHub](https://github.com/gdalle/Projet-MOPSI-2020), [video](https://www.youtube.com/watch?v=bQ0FSKwVTw0)                                                                  |
-| 2019 | Modeling project on train shunting                                        |
+| Year | Project                                                                                               | Links                                                                                                                                                                        |
+| ---- | ----------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 2021 | Tutoring of a master's thesis on large-scale inventory routing                                        |                                                                                                                                                                              |
+| 2021 | Student challenge ("hackathon") on train shunting, sponsored by SNCF                                  | [KIRO](https://kiro.enpc.org/)                                                                                                                                               |
+| 2020 | Operations research group project on large-scale inventory routing, sponsored by Renault Supply Chain | [LinkedIn](https://www.linkedin.com/posts/aim%C3%A9-fr%C3%A9d%C3%A9ric-rosenzweig-1bab4162_challenge-recherche-op%C3%A9rationnelle-supply-activity-6767114742143193088-1cBV) |
+| 2020 | Computer science group project on multimodal transit routing                                          | [GitHub](https://github.com/gdalle/Projet-MOPSI-2020), [video](https://www.youtube.com/watch?v=bQ0FSKwVTw0)                                                                  |
+| 2019 | Modeling project on train shunting                                                                    |
 
 ## Miscellaneous
 
@@ -37,6 +37,6 @@ Voici une sélection de documents pédagogiques rédigés en français :
 #### Classes préparatoires
 
 - Exercices de mathématiques [niveau MPSI](../assets/pdfs/Mes%20colles%20MPSI.pdf)
-- Exercices de mathématiques [niveau MP*](../assets/pdfs/Mes%20colles%20MP.pdf)
-- Exercices de probabilités [niveau MPSI-MP*](../assets/pdfs/Mes%20exos%20probas.pdf)
+- Exercices de mathématiques [niveau MP\*](../assets/pdfs/Mes%20colles%20MP.pdf)
+- Exercices de probabilités [niveau MPSI-MP\*](../assets/pdfs/Mes%20exos%20probas.pdf)
 - Compilation d'[oraux Centrale-Supélec avec Python](../assets/pdfs/Centrale%20Python.pdf)
