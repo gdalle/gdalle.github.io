@@ -7,17 +7,17 @@ I am a member of the "Corps des Ponts, des Eaux et des Forêts", a corps of high
 
 ## Professional experience
 
-| Year | Job                                                                                  | Place                      |
-| ---- | ------------------------------------------------------------------------------------ | -------------------------- |
-| 2019 | Research internship on delay propagation through a suburban railway network          | CERMICS (Champs-sur-Marne) |
-| 2018 | Research internship on soiling prediction and cleaning optimization for solar panels | EDF R&D (Chatou)           |
-| 2017 | Algorithmic development internship on timetable optimization for universities        | Foris (Santiago, Chile)    |
+| Year      | Job                                                                                  | Place                              |
+| --------- | ------------------------------------------------------------------------------------ | ---------------------------------- |
+| 2019-2022   | Doctoral studies                                                                     | CERMICS (Champs-sur-Marne) |
+| 2019      | Research internship on delay propagation through a suburban railway network          | CERMICS (Champs-sur-Marne)         |
+| 2018      | Research internship on soiling prediction and cleaning optimization for solar panels | EDF R&D (Chatou)                   |
+| 2017      | Algorithmic development internship on timetable optimization for universities        | Foris (Santiago, Chile)            |
 
 ## Education
 
 | Year      | Diploma                                                | Place                                 |
 | --------- | ------------------------------------------------------ | ------------------------------------- |
-| 2019-2022 | Doctoral studies                                       | École des Ponts (Champs-sur-Marne)    |
 | 2018-2019 | Master's degree "Mathématiques, Vision, Apprentissage" | ENS Paris-Saclay (Cachan)             |
 | 2018-2020 | Engineering degree                                     | École des Ponts (Champs-sur-Marne)    |
 | 2015-2018 | Engineering degree                                     | École polytechnique (Palaiseau)       |

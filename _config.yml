@@ -34,11 +34,12 @@ github_username:  gdalle
 locale: "en-US"
 timezone: Europe/Paris
 
-include: ["_pages"]
+include: ["_pages", "_assets"]
 
 # Build settings
 # theme: minima
 # theme: minimal-mistakes-jekyll
+markdown: kramdown
 remote_theme: "mmistakes/minimal-mistakes@4.23.0"
 minimal_mistakes_skin: "neon" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
 search: true
@@ -51,7 +52,7 @@ plugins:
 name: Guillaume Dalle
 author:
   name     : "Guillaume Dalle"
-  avatar   : "/assets/images/photo_small.jpg"
+  avatar   : "/_assets/images/photo_small.jpg"
   bio      : "PhD student in machine learning and operations research."
   location : "CERMICS"
   links:
@@ -81,6 +82,7 @@ defaults:
       comments: true
       share: true
       related: true
+      toc: true
   # _pages
   - scope:
       path: ""
@@ -88,29 +90,11 @@ defaults:
     values:
       layout: single
       author_profile: true
+      toc: true
 
 atom_feed:
   hide: true
 
-scholar:
-  style: apa
-  locale: en
-
-  sort_by: none
-  order: ascending
-
-  source: ./_bibliography
-  bibliography: references.bib
-  bibliography_template: "{{reference}}"
-
-  replace_strings: true
-  join_strings:    true
-
-  details_dir:    bibliography
-  details_layout: bibtex.html
-  details_link:   Details
-
-  query: "@*"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
