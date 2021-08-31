@@ -32,11 +32,11 @@ Voici une sélection de documents pédagogiques rédigés en français :
 
 #### Lycée
 
-- Préparation au Concours Général de mathématiques : [énoncé 1](../assets/pdfs/Exos%20CG%201.pdf), [corrigé 1](../assets/pdfs/Correction%20CG%201.pdf), [énoncé 2](../assets/pdfs/Exos%20CG%201.pdf), [corrigé 2](../assets/pdfs/Correction%20CG%201.pdf)
+- Préparation au Concours Général de mathématiques : [énoncé 1](../_assets/pdfs/Exos%20CG%201.pdf), [corrigé 1](../_assets/pdfs/Correction%20CG%201.pdf), [énoncé 2](../_assets/pdfs/Exos%20CG%201.pdf), [corrigé 2](../_assets/pdfs/Correction%20CG%201.pdf)
 
 #### Classes préparatoires
 
-- Exercices de mathématiques [niveau MPSI](../assets/pdfs/Mes%20colles%20MPSI.pdf)
-- Exercices de mathématiques [niveau MP\*](../assets/pdfs/Mes%20colles%20MP.pdf)
-- Exercices de probabilités [niveau MPSI-MP\*](../assets/pdfs/Mes%20exos%20probas.pdf)
-- Compilation d'[oraux Centrale-Supélec avec Python](../assets/pdfs/Centrale%20Python.pdf)
+- Exercices de mathématiques [niveau MPSI](../_assets/pdfs/Mes%20colles%20MPSI.pdf)
+- Exercices de mathématiques [niveau MP\*](../_assets/pdfs/Mes%20colles%20MP.pdf)
+- Exercices de probabilités [niveau MPSI-MP\*](../_assets/pdfs/Mes%20exos%20probas.pdf)
+- Compilation d'[oraux Centrale-Supélec avec Python](../_assets/pdfs/Centrale%20Python.pdf)

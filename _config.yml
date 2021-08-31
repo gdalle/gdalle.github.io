@@ -21,7 +21,7 @@
 title: Math4Railways
 # subtitle: "My research website."
 masthead_title: "Math4Railways"
-# logo: "/assets/images/triangle.png"
+# logo: "/_assets/images/triangle.png"
 description: >- # this means to ignore newlines until "baseurl:"
   Research website of Guillaume Dalle, PhD student.
 email: guillaume.dalle@enpc.fr
@@ -45,12 +45,13 @@ search: true
 plugins:
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-scholar
 
 
 name: Guillaume Dalle
 author:
   name     : "Guillaume Dalle"
-  avatar   : "/assets/images/photo_small.jpg"
+  avatar   : "/_assets/images/photo_small.jpg"
   bio      : "PhD student in machine learning and operations research."
   location : "CERMICS"
   links:
@@ -91,6 +92,25 @@ defaults:
 atom_feed:
   hide: true
 
+scholar:
+  style: apa
+  locale: en
+
+  sort_by: none
+  order: ascending
+
+  source: ./_bibliography
+  bibliography: references.bib
+  bibliography_template: "{{reference}}"
+
+  replace_strings: true
+  join_strings:    true
+
+  details_dir:    bibliography
+  details_layout: bibtex.html
+  details_link:   Details
+
+  query: "@*"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
