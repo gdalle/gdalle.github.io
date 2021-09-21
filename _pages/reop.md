@@ -9,7 +9,3 @@ Hello and welcome to the website for the Operations Research class I am teaching
 
 - [Administrative stuff](https://www.wooclap.com/REOP2021GDADMIN)
 - [Session 1](https://www.wooclap.com/REOP2021GDS1)
-
-## Programming
-
-I wrote an [introduction to Julia](https://gdalle.github.io/IntroJulia/) for the students of this course, so feel free to check it out! Some practical exercises are already included, but more will be released soon.
