@@ -14,3 +14,4 @@ Hello and welcome to the website for the Operations Research class I am teaching
 - [Course notes](../_assets/pdfs/REOPGDS1_notes.pdf)
 - [Wooclap quiz](https://www.wooclap.com/REOP2021GDS1)
 - [Board](../_assets/pdfs/REOPGDS1_board.pdf)
+- Video: on Teams
