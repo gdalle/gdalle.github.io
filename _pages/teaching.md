@@ -9,7 +9,7 @@ In addition to my research, I teach mathematics to undergraduate and graduate st
 
 | Year      | Place                                        | Course                                                                 |
 | --------- | -------------------------------------------- | ---------------------------------------------------------------------- |
-| 2020-2022 | École des Ponts (Champs-sur-Marne)           | Lecturer in operations research for second-year engineering students   |
+| 2020-2022 | École des Ponts (Champs-sur-Marne)           | Lecturer in operations research for second-year engineering students ([course page](/reop/))   |
 | 2019-2021 | École des Ponts (Champs-sur-Marne)           | Teaching assistant in optimization for first-year engineering students |
 | 2016-2017 | Lycées Louis-le-Grand & Henri IV (Paris)     | Oral examiner in mathematics for first-year undergraduate students     |
 | 2015-2016 | Lycée Jean-Baptiste Corot (Savigny-sur-Orge) | Science teaching intern for high-school and undergraduate students     |
