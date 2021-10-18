@@ -37,18 +37,18 @@ Hello and welcome to the website for the Operations Research class I am teaching
 - [VisuAlgo](https://visualgo.net/en): visualize many combinatorial algorithms with pseudocode indications
 
 
-## Bibliography
+### Bibliography
 
 Here are a few resources you can use to complement the course or to go deeper. If you can't find them, ask me for help.
 
-**Introductory books**
+#### Introductory books
 
 - Bona, M. (2016), *A Walk Through Combinatorics: An Introduction To Enumeration And Graph Theory* (Fourth Edition), World Scientific Publishing Company.
 - Williams, H. P. (2013), *Model Building in Mathematical Programming*, John Wiley & Sons.
 - Cook, W. J. (2012), *In Pursuit of the Traveling Salesman: Mathematics at the Limits of Computation*, Princeton University Press.
 - Matousek, J., and Gärtner, B. (2007), *Understanding and Using Linear Programming*, Springer Science & Business Media.
 
-**Advanced books**
+#### Advanced books
 
 - Conforti, M., Cornuéjols, G., and Zambelli, G. (2014), *Integer Programming*, Graduate Texts in Mathematics, Cham: Springer International Publishing : Imprint: Springer.
 - Korte, B., and Vygen, J. (2006), *Combinatorial Optimization: Theory and Algorithms, Algorithms and Combinatorics*, Berlin Heidelberg: Springer-Verlag.
