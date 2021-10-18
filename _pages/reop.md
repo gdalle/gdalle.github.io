@@ -5,25 +5,26 @@ title: Operations Research course 2021
 
 Hello and welcome to the website for the Operations Research class I am teaching this year at École des Ponts ParisTech. This course is led by [Axel Parmentier](https://cermics.enpc.fr/~parmenta/), and general information is available on the [Educnet page](https://educnet.enpc.fr/course/view.php?id=1215), but here you will find some resources that are specific to my group.
 
+## Class material
 
-## Admin
+### Admin
 
 - [Wooclap introduction form](https://www.wooclap.com/REOP2021GDADMIN)
 - All the course videos are on our Teams workspace
 
-## Session 1: Problems & graphs
+### Session 1: Problems & graphs
 
 - [Course notes](../_assets/pdfs/session1.pdf)
 - [Wooclap quiz](https://www.wooclap.com/REOP2021GDS1)
 - [Board](../_assets/pdfs/REOPGDS1.pdf)
 
-## Session 2: Shortest paths
+### Session 2: Shortest paths
 
 - [Course notes](../_assets/pdfs/session2.pdf)
 - [Wooclap quiz](https://www.wooclap.com/REOP2021GDS2)
 - [Board](../_assets/pdfs/REOPGDS2.pdf)
 
-## Session 3: Flows
+### Session 3: Flows
 
 - [Course notes](../_assets/pdfs/session3.pdf)
 - [Wooclap quiz](https://www.wooclap.com/REOP2021GDS3)
