@@ -7,28 +7,40 @@ Hello and welcome to the website for the Operations Research class I am teaching
 
 ## Class material
 
+- [Course notes](https://educnet.enpc.fr/mod/resource/view.php?id=32229) with solutions
+- Course videos: on our Teams workspace
+
 ### Admin
 
 - [Wooclap introduction form](https://www.wooclap.com/REOP2021GDADMIN)
-- All the course videos are on our Teams workspace
 
 ### Session 1: Problems & graphs
 
-- [Course notes](../_assets/pdfs/session1.pdf)
+- [Session notes](../_assets/pdfs/session1.pdf)
 - [Wooclap quiz](https://www.wooclap.com/REOP2021GDS1)
 - [Board](../_assets/pdfs/REOPGDS1.pdf)
 
 ### Session 2: Shortest paths
 
-- [Course notes](../_assets/pdfs/session2.pdf)
+- [Session notes](../_assets/pdfs/session2.pdf)
 - [Wooclap quiz](https://www.wooclap.com/REOP2021GDS2)
 - [Board](../_assets/pdfs/REOPGDS2.pdf)
 
 ### Session 3: Flows
 
-- [Course notes](../_assets/pdfs/session3.pdf)
+- [Session notes](../_assets/pdfs/session3.pdf)
 - [Wooclap quiz](https://www.wooclap.com/REOP2021GDS3)
 - [Board](../_assets/pdfs/REOPGDS3.pdf)
+
+### Session 4: Spanning trees / Complexity theory
+
+- [Session notes](../_assets/pdfs/session4.pdf)
+
+### Session 5: Linear programming
+
+- [Session notes](../_assets/pdfs/session5.pdf)
+
+### Session 6: Integer linear programming
 
 ## Additional resources
 
