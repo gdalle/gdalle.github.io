@@ -9,25 +9,25 @@ Hello and welcome to the website for the Operations Research class I am teaching
 ## Admin
 
 - [Wooclap introduction form](https://www.wooclap.com/REOP2021GDADMIN)
+- All the course videos are on our Teams workspace
 
 ## Session 1: Problems & graphs
 
 - [Course notes](../_assets/pdfs/session1.pdf)
 - [Wooclap quiz](https://www.wooclap.com/REOP2021GDS1)
 - [Board](../_assets/pdfs/REOPGDS1.pdf)
-- Video: on Teams
 
 ## Session 2: Shortest paths
 
 - [Course notes](../_assets/pdfs/session2.pdf)
 - [Wooclap quiz](https://www.wooclap.com/REOP2021GDS2)
 - [Board](../_assets/pdfs/REOPGDS2.pdf)
-- Video: on Teams
 
-<!-- ## Session 3: Flows
+## Session 3: Flows
 
 - [Course notes](../_assets/pdfs/session3.pdf)
-- [Wooclap quiz](https://www.wooclap.com/REOP2021GDS3) -->
+- [Wooclap quiz](https://www.wooclap.com/REOP2021GDS3)
+- [Board](../_assets/pdfs/REOPGDS3.pdf)
 
 ## Additional resources
 
