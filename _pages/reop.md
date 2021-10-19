@@ -5,7 +5,7 @@ title: Operations Research course 2021
 
 Hello and welcome to the website for the Operations Research class I am teaching this year at École des Ponts ParisTech. This course is led by [Axel Parmentier](https://cermics.enpc.fr/~parmenta/), and general information is available on the [Educnet page](https://educnet.enpc.fr/course/view.php?id=1215), but here you will find some resources that are specific to my group.
 
-## Class material
+## Course material
 
 - [Course notes](https://educnet.enpc.fr/mod/resource/view.php?id=32229) with solutions
 - Course videos: on our Teams workspace
@@ -14,33 +14,33 @@ Hello and welcome to the website for the Operations Research class I am teaching
 
 - [Wooclap introduction form](https://www.wooclap.com/REOP2021GDADMIN)
 
-### Session 1: Problems & graphs
+### Class 1: Problems & graphs
 
-- [Session notes](../_assets/pdfs/session1.pdf)
+- [Class notes](../_assets/pdfs/class1.pdf)
 - [Wooclap quiz](https://www.wooclap.com/REOP2021GDS1)
 - [Board](../_assets/pdfs/REOPGDS1.pdf)
 
-### Session 2: Shortest paths
+### Class 2: Shortest paths
 
-- [Session notes](../_assets/pdfs/session2.pdf)
+- [Class notes](../_assets/pdfs/class2.pdf)
 - [Wooclap quiz](https://www.wooclap.com/REOP2021GDS2)
 - [Board](../_assets/pdfs/REOPGDS2.pdf)
 
-### Session 3: Flows
+### Class 3: Flows
 
-- [Session notes](../_assets/pdfs/session3.pdf)
+- [Class notes](../_assets/pdfs/class3.pdf)
 - [Wooclap quiz](https://www.wooclap.com/REOP2021GDS3)
 - [Board](../_assets/pdfs/REOPGDS3.pdf)
 
-### Session 4: Spanning trees / Complexity theory
+### Class 4: Spanning trees / Complexity theory
 
-- [Session notes](../_assets/pdfs/session4.pdf)
+- [Class notes](../_assets/pdfs/class4.pdf)
 
-### Session 5: Linear programming
+### Class 5: Linear programming
 
-- [Session notes](../_assets/pdfs/session5.pdf)
+- [Class notes](../_assets/pdfs/class5.pdf)
 
-### Session 6: Integer linear programming
+### Class 6: Integer linear programming
 
 ## Additional resources
 
