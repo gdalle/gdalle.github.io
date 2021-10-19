@@ -40,13 +40,14 @@ Hello and welcome to the website for the Operations Research course I am teachin
 
 - [Class notes](../_assets/pdfs/class5.pdf)
 
-### Class 6: Integer linear programming
+### Class 6: Integer programming
 
 ## Additional resources
 
 ### Visualization
 
-- [VisuAlgo](https://visualgo.net/en): visualize many combinatorial algorithms with pseudocode indications
+- [VisuAlgo](https://visualgo.net/en): Visualize many combinatorial algorithms with pseudocode indications and correctness proofs
+- [WilliamFiset](https://www.youtube.com/channel/UCD8yeTczadqdARzQUp29PJw): A YouTube channel with a great series of short videos on graph theory
 
 ### Programming
 
