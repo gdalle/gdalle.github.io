@@ -14,7 +14,7 @@ Hello and welcome to the website for the Operations Research course I am teachin
 
 - [Wooclap introduction form](https://www.wooclap.com/REOP2021GDADMIN)
 
-### Class 1: Problems & graphs
+### Class 1: Optimization problems & graphs
 
 - [Class notes](../_assets/pdfs/class1.pdf)
 - [Wooclap quiz](https://www.wooclap.com/REOP2021GDS1)
@@ -32,15 +32,15 @@ Hello and welcome to the website for the Operations Research course I am teachin
 - [Wooclap quiz](https://www.wooclap.com/REOP2021GDS3)
 - [Board](../_assets/pdfs/REOPGDS3.pdf)
 
-### Class 4: Spanning trees & Complexity theory
+### Class 4: Spanning trees & complexity
 
 - [Class notes](../_assets/pdfs/class4.pdf)
 
-### Class 5: Linear programming
+### Class 5: Linear Programming
 
 - [Class notes](../_assets/pdfs/class5.pdf)
 
-### Class 6: Integer programming
+### Class 6: Integer Programming
 
 ## Additional resources
 
