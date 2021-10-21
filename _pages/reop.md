@@ -44,6 +44,8 @@ Hello and welcome to the website for the Operations Research course I am teachin
 
 ### Class 6: Integer Programming
 
+- [Class notes](../_assets/pdfs/REOPGDS6_notes.pdf)
+
 ## Additional resources
 
 ### Visualization
