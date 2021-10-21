@@ -16,29 +16,31 @@ Hello and welcome to the website for the Operations Research course I am teachin
 
 ### Class 1: Optimization problems & graphs
 
-- [Class notes](../_assets/pdfs/class1.pdf)
+- [Class notes](../_assets/pdfs/REOPGDS1_notes.pdf)
+- [Board](../_assets/pdfs/REOPGDS1_board.pdf)
 - [Wooclap quiz](https://www.wooclap.com/REOP2021GDS1)
-- [Board](../_assets/pdfs/REOPGDS1.pdf)
 
 ### Class 2: Shortest paths
 
-- [Class notes](../_assets/pdfs/class2.pdf)
+- [Class notes](../_assets/pdfs/REOPGDS2_notes.pdf)
+- [Board](../_assets/pdfs/REOPGDS2_board.pdf)
 - [Wooclap quiz](https://www.wooclap.com/REOP2021GDS2)
-- [Board](../_assets/pdfs/REOPGDS2.pdf)
 
 ### Class 3: Flows
 
-- [Class notes](../_assets/pdfs/class3.pdf)
+- [Class notes](../_assets/pdfs/REOPGDS3_notes.pdf)
+- [Board](../_assets/pdfs/REOPGDS3_board.pdf)
 - [Wooclap quiz](https://www.wooclap.com/REOP2021GDS3)
-- [Board](../_assets/pdfs/REOPGDS3.pdf)
 
 ### Class 4: Spanning trees & complexity
 
-- [Class notes](../_assets/pdfs/class4.pdf)
+- [Class notes](../_assets/pdfs/REOPGDS4_notes.pdf)
+- [Board](../_assets/pdfs/REOPGDS4_board.pdf)
+- [Wooclap quiz](https://www.wooclap.com/REOP2021GDS4)
 
 ### Class 5: Linear Programming
 
-- [Class notes](../_assets/pdfs/class5.pdf)
+- [Class notes](../_assets/pdfs/REOPGDS5_notes.pdf)
 
 ### Class 6: Integer Programming
 
