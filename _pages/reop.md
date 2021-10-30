@@ -41,6 +41,8 @@ Hello and welcome to the website for the Operations Research course I am teachin
 ### Class 5: Linear Programming
 
 - [Class notes](../_assets/pdfs/REOPGDS5_notes.pdf)
+- [Board](../_assets/pdfs/REOPGDS5_board.pdf)
+- [Wooclap quiz](https://www.wooclap.com/REOP2021GDS5)
 
 ### Class 6: Integer Programming
 
@@ -59,7 +61,7 @@ Hello and welcome to the website for the Operations Research course I am teachin
 
 ## Bibliography
 
-Here are a few resources you can use to complement the course or to go deeper. If you can't find them, ask me for help.
+Here are a few resources you can use to complement the course or to go deeper. If you can't find them, ask me for help or check out [these bibliography tools](https://gdalle.github.io/phd-resources/general/bibliography/).
 
 ### Introductory books
 
@@ -72,3 +74,4 @@ Here are a few resources you can use to complement the course or to go deeper. I
 
 - Conforti, M., Cornuéjols, G., and Zambelli, G. (2014), *Integer Programming*
 - Korte, B., and Vygen, J. (2006), *Combinatorial Optimization: Theory and Algorithms, Algorithms and Combinatorics*
+- Cormen, T. H., Leiserson, C. E., Rivest, R. L., and Stein, C. (2009), *Introduction to Algorithms*
