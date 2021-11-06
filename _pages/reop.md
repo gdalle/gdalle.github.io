@@ -43,6 +43,7 @@ Hello and welcome to the website for the Operations Research course I am teachin
 - [Class notes](../_assets/pdfs/REOPGDS5_notes.pdf)
 - [Board](../_assets/pdfs/REOPGDS5_board.pdf)
 - [Wooclap quiz](https://www.wooclap.com/REOP2021GDS5)
+- Unfortunately, the recording did not work on Teams this week, so there is no video.
 
 ### Class 6: Integer Programming
 
