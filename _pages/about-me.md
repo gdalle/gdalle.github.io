@@ -3,7 +3,7 @@ permalink: /about-me/
 title: About me
 ---
 
-I am a member of the "Corps des Ponts, des Eaux et des Forêts", a corps of high civil servants at the French ministry of ecology.
+I am a member of the "Corps des Ponts, des Eaux et des Forêts", a corps of high civil servants at the French ministry of ecology. You can download my resume [here](../assets/../_assets/pdfs/CV_Guillaume_Dalle_English.pdf).
 
 ## Professional experience
 
