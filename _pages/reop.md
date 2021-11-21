@@ -48,6 +48,8 @@ Hello and welcome to the website for the Operations Research course I am teachin
 ### Class 6: Integer Programming
 
 - [Class notes](../_assets/pdfs/REOPGDS6_notes.pdf)
+- [Board](../_assets/pdfs/REOPGDS6_board.pdf)
+- [Wooclap quiz](https://www.wooclap.com/REOP21GDS6)
 
 ## Additional resources
 
