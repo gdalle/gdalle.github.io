@@ -57,6 +57,10 @@ Hello and welcome to the website for the Operations Research course I am teachin
 - [Class notes](../_assets/pdfs/REOPGDS7_notes.pdf)
 - The lesson was done on the black board without a recording or quiz
 
+### Class 8: Bin packing & Facility location
+
+- [Class notes](../_assets/pdfs/REOPGDS8_notes.pdf)
+
 ## Additional resources
 
 ### Visualization
