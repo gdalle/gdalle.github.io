@@ -8,6 +8,7 @@ Hello and welcome to the website for the Operations Research course I am teachin
 ## Course material
 
 - [Course notes](https://educnet.enpc.fr/mod/resource/view.php?id=32229) with solutions
+- Project material: on Educnet
 - Course videos: on our Teams workspace
 
 ### Admin
@@ -50,6 +51,11 @@ Hello and welcome to the website for the Operations Research course I am teachin
 - [Class notes](../_assets/pdfs/REOPGDS6_notes.pdf)
 - [Board](../_assets/pdfs/REOPGDS6_board.pdf)
 - [Wooclap quiz](https://www.wooclap.com/REOP21GDS6)
+
+### Class 7: Integer Programming again
+
+- [Class notes](../_assets/pdfs/REOPGDS7_notes.pdf)
+- The lesson was done on the black board without a recording or quiz
 
 ## Additional resources
 
