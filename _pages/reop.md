@@ -50,16 +50,17 @@ Hello and welcome to the website for the Operations Research course I am teachin
 
 - [Class notes](../_assets/pdfs/REOPGDS6_notes.pdf)
 - [Board](../_assets/pdfs/REOPGDS6_board.pdf)
-- [Wooclap quiz](https://www.wooclap.com/REOP21GDS6)
+- [Wooclap quiz](https://www.wooclap.com/REOP2021GDS6)
 
 ### Class 7: Integer Programming again
 
 - [Class notes](../_assets/pdfs/REOPGDS7_notes.pdf)
-- The lesson was done on the black board without a recording or quiz
+- The lesson was done on the blackboard without a recording or quiz
 
 ### Class 8: Bin packing & Facility location
 
 - [Class notes](../_assets/pdfs/REOPGDS8_notes.pdf)
+- [Wooclap quiz](https://www.wooclap.com/REOP2021GDS8)
 
 ## Additional resources
 
