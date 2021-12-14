@@ -60,6 +60,7 @@ Hello and welcome to the website for the Operations Research course I am teachin
 ### Class 8: Bin packing & Facility location
 
 - [Class notes](../_assets/pdfs/REOPGDS8_notes.pdf)
+- [Board](../_assets/pdfs/REOPGDS8_board.pdf)
 - [Wooclap quiz](https://www.wooclap.com/REOP2021GDS8)
 
 ## Additional resources
