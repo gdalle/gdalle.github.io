@@ -63,6 +63,11 @@ Hello and welcome to the website for the Operations Research course I am teachin
 - [Board](../_assets/pdfs/REOPGDS8_board.pdf)
 - [Wooclap quiz](https://www.wooclap.com/REOP2021GDS8)
 
+### Class 9: Routing problems
+
+- [Class notes](../_assets/pdfs/REOPGDS9_notes.pdf)
+- [Wooclap quiz](https://www.wooclap.com/REOP2021GDS9)
+
 ## Additional resources
 
 ### Visualization
