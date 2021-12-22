@@ -85,7 +85,8 @@ defaults:
       comments: true
       share: true
       related: true
-      toc: true
+      toc: false
+      classes: wide
   # _pages
   - scope:
       path: ""
@@ -93,7 +94,8 @@ defaults:
     values:
       layout: single
       author_profile: true
-      toc: true
+      toc: false
+      classes: wide
 
 atom_feed:
   hide: true
