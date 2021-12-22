@@ -5,7 +5,7 @@ main:
     url: /teaching/
   - title: "Blog"
     url: /blog/
-  - title: "About me"
-    url: /about-me/
   - title: "PhD Resources"
     url: /phd-resources/
+  - title: "About me"
+    url: /about-me/
