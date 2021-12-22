@@ -1,7 +1,6 @@
 ---
 layout: home
 author_profile: true
-subtitle: Not the research website you deserve, but the one you need right now
 ---
 
 I'm a third-year PhD student at [CERMICS](https://cermics-lab.enpc.fr/) (the mathematics lab of [École des Ponts ParisTech](https://www.ecoledesponts.fr/en)) under the supervision of [Yohann De Castro](https://ydecastro.github.io/) and [Axel Parmentier](https://cermics.enpc.fr/~parmenta/).
