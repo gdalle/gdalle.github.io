@@ -72,7 +72,7 @@ Hello and welcome to the website for the Operations Research course I am teachin
 ### Class 10: Network design
 
 - [Class notes](../_assets/pdfs/REOPGDS10_notes.pdf)
-- [Wooclap quiz - revisions](https://www.wooclap.com/REOP2021GDREV)
+- [Board](../_assets/pdfs/REOPGDS10_board.pdf)
 - [Wooclap quiz - feedback](https://www.wooclap.com/REOP2021GDFB)
 
 ## Additional resources
