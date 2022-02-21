@@ -7,8 +7,11 @@ tags: vulgarisation
 categories:
 ---
 
-La semaine dernière, j'ai eu le plaisir d'animer le compte Twitter [@EnDirectDuLabo](https://twitter.com/EnDirectDuLabo). Le but était de décrire mon quotidien de doctorant, mais aussi de vulgariser mes sujets de recherche. Retour en images sur ces quelques jours...
+La semaine dernière, j'ai eu le plaisir d'animer le compte Twitter [@EnDirectDuLabo](https://twitter.com/EnDirectDuLabo). Le but était de décrire mon quotidien de doctorant, mais aussi de vulgariser mes sujets de recherche.
 
+Retour en images sur ces quelques jours (le thread d'introduction contient les liens des autres tweets) : <https://twitter.com/EnDirectDuLabo/status/1493124520730890240>
+
+<!-- 
 {% twitter https://twitter.com/EnDirectDuLabo/status/1493124520730890240 %}
 
 ### un peu de maths
@@ -35,4 +38,4 @@ La semaine dernière, j'ai eu le plaisir d'animer le compte Twitter [@EnDirectDu
 
 {% twitter https://twitter.com/EnDirectDuLabo/status/1493948898162970626 %}
 
-{% twitter https://twitter.com/EnDirectDuLabo/status/1494705967505752067 %}
+{% twitter https://twitter.com/EnDirectDuLabo/status/1494705967505752067 %} -->
