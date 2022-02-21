@@ -1,96 +1,100 @@
 ---
+layout: page
 permalink: /reop/
-title: Operations Research course 2021
+title: operations research course 2021
+description: a course on graph algorithms and mathematical programming
+description:
+nav: false
 ---
 
 Hello and welcome to the website for the Operations Research course I am teaching this year at École des Ponts ParisTech. The main instructor is [Axel Parmentier](https://cermics.enpc.fr/~parmenta/), and general information is available on the [Educnet page](https://educnet.enpc.fr/course/view.php?id=1215), but here you will find some resources that are specific to my group.
 
-## Course material
+## course material
 
 - [Course notes](https://educnet.enpc.fr/mod/resource/view.php?id=32229) with solutions
 - Project material: on Educnet
 - Course videos: on our Teams workspace
 
-### Admin
+### admin
 
 - [Wooclap introduction form](https://www.wooclap.com/REOP2021GDADMIN)
 
-### Class 1: Optimization problems & graphs
+### class 1: optimization problems & graphs
 
-- [Class notes](../_assets/pdfs/REOPGDS1_notes.pdf)
-- [Board](../_assets/pdfs/REOPGDS1_board.pdf)
+- [Class notes](../assets/pdfs/REOPGDS1_notes.pdf)
+- [Board](../assets/pdfs/REOPGDS1_board.pdf)
 - [Wooclap quiz](https://www.wooclap.com/REOP2021GDS1)
 
-### Class 2: Shortest paths
+### class 2: shortest paths
 
-- [Class notes](../_assets/pdfs/REOPGDS2_notes.pdf)
-- [Board](../_assets/pdfs/REOPGDS2_board.pdf)
+- [Class notes](../assets/pdfs/REOPGDS2_notes.pdf)
+- [Board](../assets/pdfs/REOPGDS2_board.pdf)
 - [Wooclap quiz](https://www.wooclap.com/REOP2021GDS2)
 
-### Class 3: Flows
+### class 3: flows
 
-- [Class notes](../_assets/pdfs/REOPGDS3_notes.pdf)
-- [Board](../_assets/pdfs/REOPGDS3_board.pdf)
+- [Class notes](../assets/pdfs/REOPGDS3_notes.pdf)
+- [Board](../assets/pdfs/REOPGDS3_board.pdf)
 - [Wooclap quiz](https://www.wooclap.com/REOP2021GDS3)
 
-### Class 4: Spanning trees & complexity
+### class 4: spanning trees & complexity
 
-- [Class notes](../_assets/pdfs/REOPGDS4_notes.pdf)
-- [Board](../_assets/pdfs/REOPGDS4_board.pdf)
+- [Class notes](../assets/pdfs/REOPGDS4_notes.pdf)
+- [Board](../assets/pdfs/REOPGDS4_board.pdf)
 - [Wooclap quiz](https://www.wooclap.com/REOP2021GDS4)
 
-### Class 5: Linear Programming
+### class 5: linear Programming
 
-- [Class notes](../_assets/pdfs/REOPGDS5_notes.pdf)
-- [Board](../_assets/pdfs/REOPGDS5_board.pdf)
+- [Class notes](../assets/pdfs/REOPGDS5_notes.pdf)
+- [Board](../assets/pdfs/REOPGDS5_board.pdf)
 - [Wooclap quiz](https://www.wooclap.com/REOP2021GDS5)
 - Unfortunately, the recording did not work on Teams this week, so there is no video.
 
-### Class 6: Integer Programming
+### class 6: integer Programming
 
-- [Class notes](../_assets/pdfs/REOPGDS6_notes.pdf)
-- [Board](../_assets/pdfs/REOPGDS6_board.pdf)
+- [Class notes](../assets/pdfs/REOPGDS6_notes.pdf)
+- [Board](../assets/pdfs/REOPGDS6_board.pdf)
 - [Wooclap quiz](https://www.wooclap.com/REOP2021GDS6)
 
-### Class 7: Integer Programming again
+### class 7: integer programming again
 
-- [Class notes](../_assets/pdfs/REOPGDS7_notes.pdf)
+- [Class notes](../assets/pdfs/REOPGDS7_notes.pdf)
 - The lesson was done on the blackboard without a recording or quiz
 
-### Class 8: Bin packing & Facility location
+### class 8: bin packing & facility location
 
-- [Class notes](../_assets/pdfs/REOPGDS8_notes.pdf)
-- [Board](../_assets/pdfs/REOPGDS8_board.pdf)
+- [Class notes](../assets/pdfs/REOPGDS8_notes.pdf)
+- [Board](../assets/pdfs/REOPGDS8_board.pdf)
 - [Wooclap quiz](https://www.wooclap.com/REOP2021GDS8)
 
-### Class 9: Routing problems
+### class 9: routing problems
 
-- [Class notes](../_assets/pdfs/REOPGDS9_notes.pdf)
-- [Board](../_assets/pdfs/REOPGDS9_board.pdf)
+- [Class notes](../assets/pdfs/REOPGDS9_notes.pdf)
+- [Board](../assets/pdfs/REOPGDS9_board.pdf)
 - [Wooclap quiz](https://www.wooclap.com/REOP2021GDS9)
 
-### Class 10: Network design
+### class 10: network design
 
-- [Class notes](../_assets/pdfs/REOPGDS10_notes.pdf)
-- [Board](../_assets/pdfs/REOPGDS10_board.pdf)
+- [Class notes](../assets/pdfs/REOPGDS10_notes.pdf)
+- [Board](../assets/pdfs/REOPGDS10_board.pdf)
 - [Wooclap quiz - feedback](https://www.wooclap.com/REOP2021GDFB)
 
-## Additional resources
+## additional resources
 
-### Visualization
+### visualization
 
 - [VisuAlgo](https://visualgo.net/en): Visualize many combinatorial algorithms with pseudocode indications and correctness proofs
 - [WilliamFiset](https://www.youtube.com/channel/UCD8yeTczadqdARzQUp29PJw): A YouTube channel with a great series of short videos on graph theory
 
-### Programming
+### programming
 
 - [Introduction to Julia](https://gdalle.github.io/IntroJulia/): A collection of resources and notebooks to get started with the Julia language
 
-## Bibliography
+## bibliography
 
 Here are a few resources you can use to complement the course or to go deeper. If you can't find them, ask me for help or check out [these bibliography tools](https://gdalle.github.io/phd-resources/general/bibliography/).
 
-### Introductory books
+### introductory books
 
 - Bona, M. (2016), *[A Walk Through Combinatorics: An Introduction To Enumeration And Graph Theory](https://www.microlinkcolleges.net/elib/files/undergraduate/Mathematics/A%20Walk%20Through%20Combinatorics%20An%20Introduction%20to%20Enumeration%20and%20Graph%20Theory.pdf)*
 - Williams, H. P. (2013), *[Model Building in Mathematical Programming](http://pourghaderi.com/wp-content/uploads/2018/12/Wiliams-Model-Building-in-Mathematical-Programming-5th-2013.pdf)*

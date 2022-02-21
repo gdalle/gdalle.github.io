@@ -1,3 +1,3 @@
-# Math4Railways
+# My research website
 
-My personal research website. Designed with [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/).
+https://gdalle.github.io/
