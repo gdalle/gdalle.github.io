@@ -143,8 +143,6 @@ keep_files:
   - .git
 
 # Plug-ins
-plugins_dir: [jekyll-scholar]
-
 plugins:
   - jekyll-archives
   - jekyll-diagrams
