@@ -18,4 +18,4 @@ I'm a third-year grad student at [CERMICS](https://cermics-lab.enpc.fr/) (the ma
 
 My research combines machine learning and combinatorial optimization. I work with the French railway company [SNCF](https://www.sncf.com/en) to optimize their use of resources, especially wich respect to traffic management and maintenance planning.
 
-Check out my toolbox for students and researchers at [PhD Resources](https://gdalle.github.io/phd-resources/)!
+> Check out my [PhD Resources](https://gdalle.github.io/phd-resources/) website for students and researchers! When you have the right tools, research is so much easier!
