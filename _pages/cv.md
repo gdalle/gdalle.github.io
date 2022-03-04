@@ -1,6 +1,6 @@
 ---
 layout: page
-title: curriculum vitae
+title: cv
 permalink: /cv/
 subtitle: a brief summary of my education and experience
 nav: true

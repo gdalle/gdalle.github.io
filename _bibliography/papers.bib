@@ -1,57 +1,117 @@
 
-@thesis{dalleDelayPropagationSuburban2019,
-  type = {mathesis},
+@misc{bouvierLargeNeighborhoodSearch2022,
+  title = {Large {{Neighborhood Search}} and {{Structured Prediction}} for the {{Inventory Routing Problem}}},
+  author = {Bouvier, Louis and Dalle, Guillaume and Parmentier, Axel},
+  year = {2022},
+  month = feb,
+  address = {{Villeurbanne - Lyon, France}},
+  url = {https://hal.archives-ouvertes.fr/hal-03597223},
+  abbr = {Talk},
+  abstract = {We consider a large-scale multi-depot multi-commodity Inventory Routing Problem (IRP) to model the packaging return logistics of a major European car manufacturer. No algorithm is known to properly scale to our context. We propose a Large Neighborhood Search (LNS) based on common routing neighborhoods and two new ones: the reinsertion of a customer and a commodity in the IRP solution. We also try to bypass the heavy computations of the LNS leveraging recent ideas in Machine Learning for Operations Research in structured prediction.},
+  bibtex_show = {true},
+  pdf = {https://hal.archives-ouvertes.fr/hal-03597223}
+}
+
+@mastersthesis{dalleDelayPropagationSuburban2019,
   title = {Delay {{Propagation}} on a {{Suburban Railway Network}}},
   author = {Dalle, Guillaume},
-  date = {2019},
-  institution = {{Université Paris-Saclay}},
+  year = {2019},
   abbr = {Thesis},
-  bibtex_show = {true}
+  bibtex_show = {true},
+  school = {Universit\'e Paris-Saclay}
+}
+
+@misc{dalleDelayPropagationSuburban2019a,
+  title = {Delay Propagation on a Suburban Railway Network},
+  author = {Dalle, Guillaume and De Castro, Yohann and Parmentier, Axel},
+  year = {2019},
+  month = dec,
+  address = {{Saclay, France}},
+  url = {https://www.easychair.org/smart-program/PGMODAYS2019/2019-12-04.html#talk:136943},
+  abbr = {Talk},
+  abstract = {A new method is introduced to predict train delays on a suburban railway network. Delay propagation is accounted for using a Dynamic Bayesian Network related to the underlying infrastructure graph. We analyze a simplified model from a statistical point of view, and obtain a lower bound on the minimax estimation risk. We propose a generic implementation using Stochastic Variational Inference and the Pyro library to separate estimation from modeling. We present numerical tests on both simulated data and real event logs from the Paris RER network.},
+  bibtex_show = {true},
+  html = {https://www.easychair.org/smart-program/PGMODAYS2019/2019-12-04.html\#talk:136943}
+}
+
+@misc{dalleDelayPropagationSuburban2020,
+  title = {Delay Propagation on a Suburban Railway Network},
+  author = {Dalle, Guillaume and De Castro, Yohann and Parmentier, Axel},
+  year = {2020},
+  month = jan,
+  address = {{Montpellier, France}},
+  url = {https://easychair.org/publications/preprint/9CGf},
+  abbr = {Talk},
+  abstract = {Understanding and predicting delays is a central task for any railway system, but it is made much more difficult by interactions between trains. We propose a new model for the delay propagation phenomenon, which takes into account infrastructure constraints without assuming knowledge of the resource conflicts linking trains with one another. Our approach relies on a set of hidden variables called the network jam, structured as a Dynamic Bayesian Network to enable spatial propagation. We also present a statistical analysis of the minimax estimation error, a variational inference method and numerical tests on simulated and real data.},
+  bibtex_show = {true},
+  pdf = {https://easychair.org/publications/preprint/9CGf}
+}
+
+@misc{dalleLearningSolveStochastic2022,
+  title = {Learning to {{Solve Stochastic Multi-Agent Path Finding}}},
+  author = {Dalle, Guillaume and Parmentier, Axel},
+  year = {2022},
+  month = feb,
+  address = {{Villeurbanne - Lyon, France}},
+  url = {https://hal.archives-ouvertes.fr/hal-03595315},
+  abbr = {Talk},
+  abstract = {In large railway networks, real-time traffic management is essential to minimize disruptions and maximize punctuality. We propose a novel approach to tackle the Multi-Agent Path Finding problem, using the AIcrowd Flatland challenge as a testing ground. By leveraging machine learning inside simple combinatorial procedures such as prioritized planning, we provide a principled way to make better heuristic decisions and anticipate delay propagation.},
+  bibtex_show = {true},
+  pdf = {https://hal.archives-ouvertes.fr/hal-03595315}
 }
 
 @unpublished{dalleMinimaxEstimationPartiallyObserved2021,
   title = {Minimax {{Estimation}} of {{Partially-Observed Vector AutoRegressions}}},
   author = {Dalle, Guillaume and De Castro, Yohann},
-  date = {2021-06},
+  year = {2021},
+  month = jun,
   url = {https://hal.archives-ouvertes.fr/hal-03263275},
-  urldate = {2021-12-11},
   abbr = {Preprint},
-  abstract = {To understand the behavior of large dynamical systems like transportation networks, one must often rely on measurements transmitted by a set of sensors, for instance individual vehicles. Such measurements are likely to be incomplete and imprecise, which makes it hard to recover the underlying signal of interest. Hoping to quantify this phenomenon, we study the properties of a partially-observed state-space model. In our setting, the latent state XXX follows a high-dimensional Vector AutoRegressive process Xt=θXt−1+εtXt=θXt−1+εtX\_t = \textbackslash theta X\_\{t-1\} + \textbackslash varepsilon\_t. Meanwhile, the observations YYY are given by a noise-corrupted random sample from the state Yt=ΠtXt+ηtYt=ΠtXt+ηtY\_t = \textbackslash Pi\_t X\_t + \textbackslash eta\_t. Several random sampling mechanisms are studied, allowing us to investigate the effect of spatial and temporal correlations in the distribution of the sampling matrices ΠtΠt\textbackslash Pi\_t. We first prove a lower bound on the minimax estimation error for the transition matrix θθ\textbackslash theta. We then describe a sparse estimator based on the Dantzig selector and upper bound its non-asymptotic error, showing that it achieves the optimal convergence rate for most of our sampling mechanisms. Numerical experiments on simulated time series validate our theoretical findings, while an application to open railway data highlights the relevance of this model for public transport traffic analysis.},
+  abstract = {To understand the behavior of large dynamical systems like transportation networks, one must often rely on measurements transmitted by a set of sensors, for instance individual vehicles. Such measurements are likely to be incomplete and imprecise, which makes it hard to recover the underlying signal of interest. Hoping to quantify this phenomenon, we study the properties of a partially-observed state-space model. In our setting, the latent state XXX follows a high-dimensional Vector AutoRegressive process Xt=\texttheta Xt-1+{$\epsilon$}tXt=\texttheta Xt-1+{$\epsilon$}tX\_t = \textbackslash theta X\_\{t-1\} + \textbackslash varepsilon\_t. Meanwhile, the observations YYY are given by a noise-corrupted random sample from the state Yt={$\Pi$}tXt+{$\eta$}tYt={$\Pi$}tXt+{$\eta$}tY\_t = \textbackslash Pi\_t X\_t + \textbackslash eta\_t. Several random sampling mechanisms are studied, allowing us to investigate the effect of spatial and temporal correlations in the distribution of the sampling matrices {$\Pi$}t{$\Pi$}t\textbackslash Pi\_t. We first prove a lower bound on the minimax estimation error for the transition matrix \texttheta\texttheta\textbackslash theta. We then describe a sparse estimator based on the Dantzig selector and upper bound its non-asymptotic error, showing that it achieves the optimal convergence rate for most of our sampling mechanisms. Numerical experiments on simulated time series validate our theoretical findings, while an application to open railway data highlights the relevance of this model for public transport traffic analysis.},
   bibtex_show = {true},
-  html = {https://hal.archives-ouvertes.fr/hal-03263275},
-  selected = {true},
-  keywords = {archived},
-  file = {/home/guillaume/Zotero/storage/YMWSKN99/Dalle_De Castro_2021_Minimax Estimation of Partially-Observed Vector AutoRegressions.pdf}
+  pdf = {https://hal.archives-ouvertes.fr/hal-03263275},
+  selected = {true}
 }
 
-@software{dallePointProcessesJl2021,
+@misc{dallePointProcessesJl2021,
   title = {{{PointProcesses}}.Jl},
   author = {Dalle, Guillaume},
-  date = {2021-11-05T10:12:51Z},
+  year = {2021},
+  month = nov,
   url = {https://github.com/gdalle/PointProcesses.jl},
-  urldate = {2021-11-18},
   abbr = {GitHub},
   abstract = {A package for point process modeling, simulation and inference.},
   bibtex_show = {true},
-  html = {https://github.com/gdalle/PointProcesses.jl},
-  version = {v0.2.0}
+  code = {https://github.com/gdalle/PointProcesses.jl},
+  copyright = {MIT}
+}
+
+@misc{dallePourquoiTrainsSontils2021,
+  title = {Pourquoi Les Trains Sont-Ils Toujours En Retard?},
+  author = {Dalle, Guillaume and De Castro, Yohann and Parmentier, Axel},
+  year = {2021},
+  month = nov,
+  address = {{Universit\'e de Rennes}},
+  url = {https://irmar.univ-rennes1.fr/evenements/guillaume-dalle-cermics-httpsgdallegithubio},
+  abbr = {Talk},
+  abstract = {Les r\'eseaux ferroviaires sont des syst\`emes tr\`es instables : il suffit parfois d'un petit incident pour paralyser toute une ligne pendant plusieurs heures. Ces ph\'enom\`enes de propagation sont dus \`a des conflits de ressources entre trains, c'est pourquoi leur compr\'ehension n\'ecessiterait des donn\'ees tr\`es pr\'ecises sur le plan de transport. Malheureusement, de telles donn\'ees sont souvent inaccessibles. Nous proposons donc un nouveau mod\`ele de retards bas\'e sur une variable latente qui repr\'esente la congestion des voies. Cette congestion vit sur les ar\^etes du graphe qui repr\'esente le r\'eseau, et elle \'evolue suivant un processus auto-r\'egressif vectoriel (VAR) en grande dimension. Cependant, pas question de l'observer directement : les seules informations dont on dispose sont les temps de trajet des trains, ce qui correspond \`a une projection bruit\'ee du signal d'int\'er\^et. Dans ces conditions, apprendre la matrice de transition du processus VAR peut se r\'ev\'eler difficile. Nos analyses statistiques fournissent le taux de convergence optimal de l'erreur d'estimation, qui d\'epend de plusieurs param\`etres facilement interpr\'etables : dimension du r\'eseau, densit\'e du trafic, vitesse de propagation des retards. Nous prouvons d'abord l'existence d'une borne inf\'erieure minimax, qui s'applique \`a n'importe quel estimateur, puis nous identifions un algorithme parcimonieux capable d'atteindre cette borne inf\'erieure.},
+  bibtex_show = {true},
+  html = {https://irmar.univ-rennes1.fr/evenements/guillaume-dalle-cermics-httpsgdallegithubio}
 }
 
 @patent{stephanMethodDeterminingSoiling2020,
-  type = {patent},
   title = {Method for Determining a Soiling Speed of a Photovoltaic Generation Unit},
   author = {Stephan, Pierre and Dalle, Guillaume},
-  holder = {{Electricite De France}},
-  date = {2020-06-11},
+  year = {2020},
+  month = jun,
   number = {WO2020115431A1},
-  location = {{WO}},
   url = {https://patents.google.com/patent/WO2020115431A1/en},
-  urldate = {2021-11-18},
   abbr = {Patent},
   abstract = {The invention relates to a method for determining a soiling speed of a photovoltaic generation unit, in which, on the basis of values of an electrical variable generated by the photovoltaic generation unit at a plurality of moments in a time series and corresponding values of meteorological parameters, and on the basis of a relationship between an electrical variable generated by said generation unit at one moment, the values taken with the meteorological parameters at the same moment, and the occurrence of cleaning events, wherein said relationship comprises multiple relational parameters including the speed of soiling and the occurrence of a cleaning event is modelled by a probability law involving a relational parameter, the soiling speed is determined in iterations in which vectors that are representative of the occurrence of cleaning events are simulated.},
+  assignee = {Electricite De France},
   bibtex_show = {true},
   html = {https://patents.google.com/patent/WO2020115431A1/en},
-  file = {/home/guillaume/Zotero/storage/UD56J2RP/Stephan_Dalle_2020_Method for determining a soiling speed of a photovoltaic generation unit.pdf}
+  nationality = {WO}
 }
 
 
