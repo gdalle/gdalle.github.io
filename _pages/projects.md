@@ -4,7 +4,7 @@ title: projects
 permalink: /projects/
 description: some of the stuff I've been working on
 nav: true
-display_categories: [work, fun]
+display_categories: [railway, open-source, teaching, fun]
 horizontal: false
 ---
 

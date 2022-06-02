@@ -5,3 +5,11 @@
 "Parmentier":
   - firstname: ["Axel", "A."]
     url: https://cermics.enpc.fr/~parmenta/
+
+"Baty":
+  - firstname: ["Léo", "L."]
+    url: https://batyleo.github.io/
+
+"Bouvier":
+  - firstname: ["Louis", "L."]
+    url: https://louisbouvier.github.io/

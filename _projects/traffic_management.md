@@ -1,10 +1,10 @@
 ---
 layout: page
 title: traffic management
-description: 
+description: learn to solve multi-agent pathfinding for trains
 img: assets/img/traffic_light.png
-importance: 3
-category: work
+redirect: https://github.com/gdalle/MultiAgentPathFinding.jl
+category: railway
 ---
 
 > Work in progress

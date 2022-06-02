@@ -1,10 +1,9 @@
 ---
 layout: page
 title: failure prediction
-description: 
+description: use condition-monitoring data to predict train breakdowns
 img: assets/img/explosion.png
-importance: 1
-category: work
+category: railway
 ---
 
 > Work in progress

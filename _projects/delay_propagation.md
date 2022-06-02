@@ -1,10 +1,9 @@
 ---
 layout: page
 title: delay propagation
-description: 
+description: predict interactions between trains on dense networks
 img: assets/img/timer.png
-importance: 2
-category: work
+category: railway
 ---
 
 > Work in progress
