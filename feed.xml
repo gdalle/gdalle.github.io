@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://gdalle.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://gdalle.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2022-07-06T15:44:39+00:00</updated><id>https://gdalle.github.io/feed.xml</id><title type="html">blank</title><subtitle>Professional website of Guillaume Dalle, PhD student at École des Ponts.
+</subtitle><entry><title type="html">Ma semaine sur @EnDirectDuLabo</title><link href="https://gdalle.github.io/blog/2022/endirectdulabo/" rel="alternate" type="text/html" title="Ma semaine sur @EnDirectDuLabo" /><published>2022-02-20T09:00:00+00:00</published><updated>2022-02-20T09:00:00+00:00</updated><id>https://gdalle.github.io/blog/2022/endirectdulabo</id><content type="html" xml:base="https://gdalle.github.io/blog/2022/endirectdulabo/"><![CDATA[<p>La semaine dernière, j’ai eu le plaisir d’animer le compte Twitter <a href="https://twitter.com/EnDirectDuLabo">@EnDirectDuLabo</a>. Le but était de décrire mon quotidien de doctorant, mais aussi de vulgariser mes sujets de recherche.</p>
+
+<p>Retour en images sur ces quelques jours (le thread d’introduction contient les liens des autres tweets) :</p>
+<div class="jekyll-twitter-plugin"><blockquote class="twitter-tweet"><p lang="fr" dir="ltr">Bonjour tout le monde 👋 Moi c&#39;est Guillaume (<a href="https://twitter.com/giomdal?ref_src=twsrc%5Etfw">@giomdal</a>), doctorant en mathématiques appliquées au transport ferroviaire !<br />Cette semaine, on va parler <a href="https://twitter.com/hashtag/IA?src=hash&amp;ref_src=twsrc%5Etfw">#IA</a>, <a href="https://twitter.com/hashtag/Programmation?src=hash&amp;ref_src=twsrc%5Etfw">#Programmation</a>, <a href="https://twitter.com/hashtag/SNCF?src=hash&amp;ref_src=twsrc%5Etfw">#SNCF</a>, mais aussi <a href="https://twitter.com/hashtag/Enseignement?src=hash&amp;ref_src=twsrc%5Etfw">#Enseignement</a>, <a href="https://twitter.com/hashtag/Recherche?src=hash&amp;ref_src=twsrc%5Etfw">#Recherche</a> et <a href="https://twitter.com/hashtag/Sant%C3%A9Mentale?src=hash&amp;ref_src=twsrc%5Etfw">#SantéMentale</a>. Montez vite, départ imminent 🚂 <a href="https://t.co/T9jecOt4MN">pic.twitter.com/T9jecOt4MN</a></p>&mdash; En Direct du Labo (@EnDirectDuLabo) <a href="https://twitter.com/EnDirectDuLabo/status/1493124520730890240?ref_src=twsrc%5Etfw">February 14, 2022</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>]]></content><author><name></name></author><category term="sciencecomm" /><summary type="html"><![CDATA[Une expérience de vulgarisation sur twitter]]></summary></entry><entry><title type="html">NeurIPS 2021 digest</title><link href="https://gdalle.github.io/blog/2021/neurips21/" rel="alternate" type="text/html" title="NeurIPS 2021 digest" /><published>2021-12-22T16:00:00+00:00</published><updated>2021-12-22T16:00:00+00:00</updated><id>https://gdalle.github.io/blog/2021/neurips21</id><content type="html" xml:base="https://gdalle.github.io/blog/2021/neurips21/"><![CDATA[<p>This is my first attempt at a blog post, so please be kind!</p>
+
+<p><a href="https://neurips.cc/">NeurIPS</a> is one of the leading conferences in machine learning, and due to an ongoing pandemic, the 2021 edition took place online. On the one hand, this means that AI researchers from around the world didn’t get to socialize in person and enjoy the free food. On the other hand, it also means that I was able to follow most of the talks from my living-room, instead of spending my yearly carbon budget on a round-trip to Sydney.</p>
+
+<p>Now that I have finally caught up on everything I wanted to watch, it’s time for a quick summary of my personal highlights! All of the papers I mention are available on the <a href="https://papers.nips.cc/paper/2021">pre-proceedings website</a>. This is a long post, but to my defense, there were several thousands of accepted papers at NeurIPS 2021, so I think my compression rate is quite impressive already.</p>
+
+<h1 id="machine-learning-theory">Machine learning theory</h1>
+
+<p>The papers in this section provide a critical perspective on some standard assumptions that most ML practitioners would have accepted without batting an eye.</p>
+
+<h2 id="impossibility-results">Impossibility results</h2>
+
+<ul>
+  <li>
+    <p><em>“Markov rewards are enough”</em>: it depends what you want to do with them. <a href="https://papers.nips.cc/paper/2021/hash/4079016d940210b4ae9ae7d41c4a2065-Abstract.html">On the Expressivity of Markov Reward</a> questions this fundamental paradigm of reinforcement learning by rethinking the notion of task. Indeed, maximizing an agent’s reward is only a proxy to steer it towards a set of acceptable behaviors or trajectories. And as it turns out, the standard reward framework of MDPs is not sufficient to express every possible task: for instance, the policies achieving the task “always move in the same direction” cannot be given a strictly higher value than all others when using only Markov rewards. The key intuition is that Markov rewards are quick to forgive past offenses, whereas such “lifelong” tasks will never forget even one mistake!</p>
+  </li>
+  <li>
+    <p><em>“There is a classification measure that does everything I want”</em>: sorry, but you cannot have your cake and eat it too. There are many interesting properties we can wish from our measure, for instance monotonicity or distance-like behavior. Another important one is the constant baseline property, which ensures that random labelings get similar scores regardless of class sizes. Unfortunately, as was shown by <a href="https://papers.nips.cc/paper/2021/hash/8e489b4966fe8f703b5be647f1cbae63-Abstract.html">Good Classification Measures and How to Find Them</a>, there is no binary classification measure that satisfies the three criteria listed above. What a bummer…</p>
+  </li>
+  <li>
+    <p><em>“Stochastic gradient descent can learn anything”</em>: well, it actually depends on the minibatch size and gradient precision. <a href="https://papers.nips.cc/paper/2021/hash/cc225865b743ecc91c4743259813f604-Abstract.html">On the Power of Differentiable Learning versus PAC and SQ Learning</a> shows that there are some settings where the SGD framework is strictly weaker than the PAC learning framework in terms of expressivity. Disappointing, right?</p>
+  </li>
+</ul>
+
+<h2 id="uncertainty-and-privacy">Uncertainty and privacy</h2>
+
+<ul>
+  <li>
+    <p><em>“Numerical algorithms are reliable”</em>: not fully, because they often rely on a small parameter \(h\) that cannot be shrinked all the way to \(0\). A good example is the step size when solving differential equations. <a href="https://papers.nips.cc/paper/2021/hash/c4de8ced6214345614d33fb0b16a8acd-Abstract.html">Black Box Probabilistic Numerics</a> proposes to bridge this gap by using a sequence of increasingly precise computations to interpolate the \(h \to 0\) limit using a Gaussian process. The resulting quantity of interest is no longer deterministic, but stochastic: its variance can then be interpreted as an epistemic uncertainty related to the finite precision of the underlying solver.</p>
+  </li>
+  <li>
+    <p><em>“Differential privacy is the only way to go”</em>: that may be true if you want to be robust against attacks regarding all members of the dataset. However, if you only care about the privacy of some data points (for instance, a group of users asking to be removed from your database), then you can do better by following Master Yoda’s advice: “You must unleaaaarn what you have leaaarned”. More specifically, you must <a href="https://proceedings.neurips.cc/paper/2021/hash/9627c45df543c816a3ddf2d8ea686a99-Abstract.html">Remember What You Want to Forget: Algorithms for Machine Unlearning</a>. The authors of this paper show that by exploiting the hessian of the final training loss, we can delete more samples (when compared to DP) without giving up on prediction performance.</p>
+  </li>
+</ul>
+
+<h2 id="discrete-and-continuous-time">Discrete and continuous time</h2>
+
+<ul>
+  <li>
+    <p><em>“Discrete time makes things easier to analyze”</em>: not always. In fact, a growing number of works encourage us to interpret well-known algorithms from a continuous-time point of view. In <a href="https://papers.nips.cc/paper/2021/hash/18a9042b3fc5b02fe3d57fea87d6992f-Abstract.html">Framing RNN as a kernel method: A neural ODE approach</a>, one discovers that taking the continuous limit of recurrent networks and studying the resulting differential equation can yield useful generalization guarantees. Throw in some kernel methods for good measure, and you got yourself a nice little theory-packed paper!</p>
+  </li>
+  <li>
+    <p><em>“Well, continuous-time analysis may be simpler but the resulting algorithm cannot be better”</em>: wrong again! <a href="https://papers.nips.cc/paper/2021/hash/ec26fc2eb2b75aece19c70392dc744c2-Abstract.html">Continuized Accelerations of Deterministic and Stochastic Gradient Descents, and of Gossip Algorithms</a> introduces a version of Nesterov acceleration for gradient descent that replaces the mixing steps with a differential equation and chooses discrete update times from a Poisson process. Not only does the convergence proof become much more intuitive, this continuization approach actually brings other benefits, most notably an unexpected potential for parallelization in certain settings. Watching the talk made me feel like this was sorcery, maybe you can convince me otherwise!</p>
+  </li>
+</ul>
+
+<h1 id="machine-learning--combinatorial-optimization">Machine learning &amp; combinatorial optimization</h1>
+
+<p>A particular focus of my research which I share with my advisor <a href="https://cermics.enpc.fr/~parmenta/">Axel Parmentier</a> and my former student <a href="https://louisbouvier.github.io/">Louis Bouvier</a>, is the use of learning algorithms to enhance optimization procedures.</p>
+
+<p>Indeed, we can often leverage the sequential nature of real-life applications, in which we solve many similar problems in a sequence, to enhance these algorithms by learning from past decisions.
+This field of research is particularly active, as you can see from the following list of contributions. I will try to edit this post and add some comments within the next few days.</p>
+
+<h2 id="speeding-up-general-linear-quadratic-and-integer-programs">Speeding up general linear, quadratic and integer programs</h2>
+
+<ul>
+  <li><a href="https://proceedings.neurips.cc/paper/2021/hash/a8fbbd3b11424ce032ba813493d95ad7-Abstract.html">Practical Large-Scale Linear Programming using Primal-Dual Hybrid Gradient</a></li>
+  <li><a href="https://papers.nips.cc/paper/2021/hash/afdec7005cc9f14302cd0474fd0f3c96-Abstract.html">Accelerating Quadratic Optimization with Reinforcement Learning</a></li>
+  <li><a href="https://papers.nips.cc/paper/2021/hash/fc9e62695def29ccdb9eb3fed5b4c8c8-Abstract.html">Learning Large Neighborhood Search Policy for Integer Programming</a></li>
+  <li><a href="https://papers.nips.cc/paper/2021/hash/cb7c403aa312160380010ee3dd4bfc53-Abstract.html">Learning to Schedule Heuristics in Branch and Bound</a></li>
+  <li><a href="https://proceedings.neurips.cc/paper/2021/hash/210b7ec74fc9cec6fb8388dbbdaf23f7-Abstract.html">Sample Complexity of Tree Search Configuration: Cutting Planes and Beyond</a></li>
+</ul>
+
+<h2 id="learning-from-previous-solutions-of-a-specific-problem">Learning from previous solutions of a specific problem</h2>
+
+<ul>
+  <li><a href="https://papers.nips.cc/paper/2021/hash/5616060fb8ae85d93f334e7267307664-Abstract.html">Faster Matchings via Learned Duals</a></li>
+  <li><a href="https://papers.nips.cc/paper/2021/hash/0d3180d672e08b4c5312dcdafdf6ef36-Abstract.html">USCO-Solver: Solving Undetermined Stochastic Combinatorial Optimization Problems</a></li>
+  <li><a href="https://papers.nips.cc/paper/2021/hash/3501672ebc68a5524629080e3ef60aef-Abstract.html">Can You Learn an Algorithm? Generalizing from Easy to Hard Problems with Recurrent Networks</a></li>
+  <li><a href="https://papers.nips.cc/paper/2021/hash/d1942a3ab01eb59220e2b3a46e7ef09d-Abstract.html">Learning Hard Optimization Problems: A Data Generation Perspective</a></li>
+  <li><a href="https://papers.nips.cc/paper/2021/hash/b2f627fff19fda463cb386442eac2b3d-Abstract.html">A Bi-Level Framework for Learning to Solve Combinatorial Optimization on Graphs</a></li>
+</ul>
+
+<h2 id="bridging-the-gap-between-discrete-structures-and-differentiable-learning">Bridging the gap between discrete structures and differentiable learning</h2>
+
+<ul>
+  <li><a href="https://papers.nips.cc/paper/2021/hash/89ae0fe22c47d374bc9350ef99e01685-Abstract.html">Learning with Algorithmic Supervision via Continuous Relaxations</a></li>
+  <li><a href="https://papers.nips.cc/paper/2021/hash/44e76e99b5e194377e955b13fb12f630-Abstract.html">Combining Latent Space and Structured Kernels for Bayesian Optimization over Combinatorial Spaces</a></li>
+  <li><a href="https://papers.nips.cc/paper/2021/hash/ca6ab34959489659f8c3776aaf1f8efd-Abstract.html">DiBS: Differentiable Bayesian Structure Learning</a></li>
+  <li><a href="https://papers.nips.cc/paper/2021/hash/f6a673f09493afcd8b129a0bcf1cd5bc-Abstract.html">Neural Bellman-Ford Networks: A General Graph Neural Network Framework for Link Prediction</a></li>
+  <li><a href="https://proceedings.neurips.cc/paper/2021/hash/b5200c6107fc3d41d19a2b66835c3974-Abstract.html">PiRank: Scalable Learning To Rank via Differentiable Sorting</a></li>
+  <li><a href="https://proceedings.neurips.cc/paper/2021/hash/5b658d2a925565f0755e035597f8d22f-Abstract.html">Leveraging Recursive Gumbel-Max Trick for Approximate Inference in Combinatorial Spaces</a></li>
+</ul>
+
+<h2 id="routing-problems">Routing problems</h2>
+
+<ul>
+  <li><a href="https://papers.nips.cc/paper/2021/hash/dc9fa5f217a1e57b8a6adeb065560b38-Abstract.html">Learning to delegate for large-scale vehicle routing</a></li>
+  <li><a href="https://papers.nips.cc/paper/2021/hash/564127c03caab942e503ee6f810f54fd-Abstract.html">Learning Collaborative Policies to Solve NP-hard Routing Problems</a></li>
+  <li><a href="https://papers.nips.cc/paper/2021/hash/3d863b367aa379f71c7afc0c9cdca41d-Abstract.html">NeuroLKH: Combining Deep Learning Model with Lin-Kernighan-Helsgaun Heuristic for Solving the Traveling Salesman Problem</a></li>
+  <li><a href="https://papers.nips.cc/paper/2021/hash/03a3655fff3e9bdea48de9f49e938e32-Abstract.html">Learning Space Partitions for Path Planning</a></li>
+</ul>
+
+<h2 id="combinatorial-optimization-for-machine-learning">Combinatorial optimization for machine learning</h2>
+
+<ul>
+  <li><a href="https://papers.nips.cc/paper/2021/hash/f3f1b7fc5a8779a9e618e1f23a7b7860-Abstract.html">Differentiable Optimization of Generalized Nondecomposable Functions using Linear Programs</a></li>
+  <li><a href="https://proceedings.neurips.cc/paper/2021/hash/17f98ddf040204eda0af36a108cbdea4-Abstract.html">Partition-Based Formulations for Mixed-Integer Optimization of Trained ReLU Neural Networks</a></li>
+</ul>
+
+<h2 id="miscellaneous">Miscellaneous</h2>
+
+<ul>
+  <li><a href="https://proceedings.neurips.cc/paper/2021/hash/cc9b3c69b56df284846bf2432f1cba90-Abstract.html">On the Power of Edge Independent Graph Models</a></li>
+</ul>]]></content><author><name></name></author><category term="maths" /><category term="conferences" /><summary type="html"><![CDATA[A summary of my personal highlights at a major ML conference]]></summary></entry></feed>
