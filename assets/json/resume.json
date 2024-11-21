@@ -64,7 +64,7 @@
       // "endDate": "2015-07-01",
       "summary": "Peer review for various scientific journals and conferences:",
       "highlights": [
-        "Journals: Transactions in Machine Learning Research, Journal of Open Source Software, Transportation Science.",
+        "Journals: Transactions on Machine Learning Research, Journal of Open Source Software, Transportation Science.",
         "Conferences: NeurIPS, ICML, Learning on Graphs Conference, JuliaCon"
       ]
     }
