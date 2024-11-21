@@ -1,14 +1,14 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - gdalle
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - JuliaDiff/DifferentiationInterface.jl
+  - JuliaDecisionFocusedLearning/ImplicitDifferentiation.jl
+  - JuliaDecisionFocusedLearning/InferOpt.jl
+  - SciML/ADTypes.jl
+  - gdalle/HiddenMarkovModels.jl
+  - adrhill/SparseConnectivityTracer.jl
+  - gdalle/SparseMatrixColorings.jl
+  - modernjuliaworkflows/modernjuliaworkflows.github.io
