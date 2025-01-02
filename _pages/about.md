@@ -15,9 +15,8 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a postdoctoral researcher in machine learning at EPFL, working between the labs [IdePHICS](https://www.epfl.ch/labs/idephics/), [SPOC](https://www.epfl.ch/labs/spoc/) and [INDY](https://indy.epfl.ch/).
-My current research focuses on the behavior of graph neural networks.
+I am a tenured researcher at [École des Ponts](https://ecoledesponts.fr/) (France), in the [LVMT](https://www.lvmt.fr/) team. Previously I was a postdoc at [EPFL](https://www.epfl.ch/en/)(Switzerland) and a visiting student at [MIT](https://www.mit.edu/) (USA).
 
-Between 2019 and 2022, I did my PhD at École des Ponts ([CERMICS](https://cermics-lab.enpc.fr/)), followed by a visit to MIT ([JuliaLab](https://julia.mit.edu/)).
+My scientific interests range from applied mathematics and computer science (on the theoretical side) to the study and optimization of transportation systems (on the applied side). If you want to discuss these topics, please reach out!
 
 > Check out my website [PhD Resources](https://phd-resources.github.io/) for students and researchers :microscope:

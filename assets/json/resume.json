@@ -24,10 +24,18 @@
   },
   "work": [
     {
+      "name": "École des Ponts",
+      "position": "Researcher",
+      "location": "France",
+      "startDate": "2025",
+      "endDate": "today",
+      "summary": "Applied mathematics for transportation systems.",
+      "highlights": []
+    },
+    {
       "name": "EPFL",
       "position": "Postdoctoral researcher",
       "location": "Switzerland",
-      // "url": "",
       "startDate": "2023",
       "endDate": "2024",
       "summary": "Behavior of graph neural networks.",
@@ -37,7 +45,6 @@
       "name": "EDF R&D",
       "position": "Research intern",
       "location": "France",
-      // "url": "",
       "startDate": "2018",
       "endDate": "2018",
       "summary": "Markovian models for soiling estimation & cleaning optimization in solar power plants.",
@@ -47,7 +54,6 @@
       "name": "Foris AI",
       "position": "Software development intern",
       "location": "Chile",
-      // "url": "",
       "startDate": "2017",
       "endDate": "2017",
       "summary": "Linear Programming & local search for university timetabling.",

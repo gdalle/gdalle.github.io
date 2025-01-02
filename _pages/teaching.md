@@ -15,6 +15,16 @@ Teaching assistant and lecturer:
 - [Statistical physics for optimization & learning](https://edu.epfl.ch/coursebook/en/statistical-physics-for-optimization-learning-PHYS-642)
 - [Stochastic models in communication](https://edu.epfl.ch/coursebook/en/stochastic-models-in-communication-COM-300)
 
+Mentor for master's theses:
+
+- [Chun-Tso Tsai](https://www.linkedin.com/in/tsaichuntso/) on multi-agent pathfinding (2023)
+
+Mentor for student projects:
+
+- On parallel graph algorithms (2024)
+- On the [Flatland challenge](https://www.flatland-association.org/home) (2024)
+- On graph community detection (2023)
+
 ## MIT (2022-2023)
 
 Teaching assistant and lecturer:

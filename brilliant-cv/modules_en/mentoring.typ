@@ -6,7 +6,6 @@
 
 #cvSection("Mentoring")
 
-
 #cvEntry(
     title: [Student advisor],
     society: [École polytechnique fédérale de Lausanne],
@@ -14,13 +13,17 @@
     location: [Lausanne, Switzerland],
     description: list(
         [#link("https://www.linkedin.com/in/tsaichuntso/")[Chun-Tso Tsai] (2023): _Multi-Agent Pathfinding with Mixed-Integer Linear Programming and Lagrange Relaxation_],
-        [#link("https://www.linkedin.com/in/oleg-fafurin-7963071aa/")[Oleg Fafurin] (2023): _Graph algorithms in Julia_]
+        [Various group and individual projects:
+            - graph community detection (2023)
+            - Flatland challenge (2024)
+            - parallel graph algorithms (2024)
+        ]
     ),
 )
 
 #cvEntry(
     title: [Student advisor],
-    society: [École des Ponts ParisTech],
+    society: [École Nationale des Ponts et Chaussées],
     date: [2019 - 2022],
     location: [Champs-sur-Marne, France],
     description: list(
