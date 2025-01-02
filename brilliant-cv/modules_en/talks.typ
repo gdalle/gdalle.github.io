@@ -10,6 +10,7 @@
 
 === 2024
 
+- PyData Global: _Automatic differentiation: a tale of two languages_ (#link("https://global2024.pydata.org/cfp/talk/QZXXWN/")[abstract])
 - JuliaCon: _ Gradients for everyone: a quick guide to autodiff in Julia_ (#link("https://pretalx.com/juliacon2024/talk/review/LVWUEAR3WQCDAEF8ZFJMBFF7ALNBFATN")[abstract])
 - JuliaCon: _Fast and generic Hidden Markov Models_ (#link("https://pretalx.com/juliacon2024/talk/review/ZN3YKLENQLLRPYSZZWEJCW7CK8TE8F7H")[abstract])
 - JuliaCon: _Interfaces.jl: base and package interface tests for your objects_ (#link("https://pretalx.com/juliacon2024/talk/review/A7FGLFZKRK7LGVHJQSSWNZWVCDJRRW8E")[abstract])
@@ -17,7 +18,7 @@
 === 2023
 
 - Workshop "Exploring synergies: Machine Learning Meets Physics & Optimization": _Every solution, everywhere, all at once: turning optimization solvers into probability distributions_ (#link("https://mathplus.de/topic-development-lab/tes-summer-2023/workshop/")[abstract])
-- JPOC: _What is the gradient of a Linear Program? Automatic differentiation on a polytope_
+- Journées Polyèdres et Optimisation Combinatoire: _What is the gradient of a Linear Program? Automatic differentiation on a polytope_
 - Julia and Optimization Days: _Graphs in Julia - on the edge of glory_ (#link("https://julia-users-paris.github.io/workshop/en/index.html")[slides])
 - Julia and Optimization Days: _Writing fast Julia code_ (#link("https://julia-users-paris.github.io/workshop/en/index.html")[slides])
 
@@ -53,4 +54,4 @@
 === 2021
 
 - Institut de Recherche Mathématique de Rennes: _Pourquoi les trains sont-ils toujours en retard?_ (#link("https://irmar.univ-rennes.fr/evenements/pourquoi-les-trains-sont-ils-toujours-en-retard")[abstract])
-- École des Ponts ParisTech: _Understanding railway delay propagation through latent variable models_ (#link("https://cermics-lab.enpc.fr/seminaires/decision-algorithms-and-geometry/")[abstract])
+- École Nationale des Ponts et Chaussées: _Understanding railway delay propagation through latent variable models_ (#link("https://cermics-lab.enpc.fr/seminaires/decision-algorithms-and-geometry/")[abstract])

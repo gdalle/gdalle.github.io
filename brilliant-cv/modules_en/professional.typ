@@ -7,11 +7,20 @@
 
 #cvSection("Professional Experience")
 
+#cvEntry(
+    title: [Researcher],
+    society: [École Nationale des Ponts et Chaussées],
+    date: [2025 - present],
+    location: [Champs-sur-Marne, France],
+    description: list(
+        [Applied mathematics for transportation systems],
+    )
+)
 
 #cvEntry(
     title: [Postdoctoral researcher],
     society: [École polytechnique fédérale de Lausanne],
-    date: [2023 - present],
+    date: [2023 - 2024],
     location: [Lausanne, Switzerland],
     description: list(
         [Theoretical study of graph neural networks],
