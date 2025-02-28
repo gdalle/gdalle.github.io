@@ -3,7 +3,6 @@
 #let metadata = toml("../metadata.toml")
 #let cvSection = cvSection.with(metadata: metadata)
 
-
 #cvSection("Talks")
 
 == Conferences
