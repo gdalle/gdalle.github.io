@@ -27,7 +27,7 @@ language = "en"
 
     [layout.entry]
         # Decide if you want to put your company in bold or your position in bold
-        display_entry_society_first = true
+        display_entry_society_first = false
 
         # Decide if you want to display organisation logo or not
         display_logo = true
@@ -38,7 +38,7 @@ language = "en"
 
     # Decide if you want to inject keywords or not
     inject_keywords = false
-    injected_keywords_list = ["Data Analyst", "GCP", "Python", "SQL", "Tableau"]
+    injected_keywords_list = ["machine learning", "optimization"]
 
 [personal]
     first_name = "Guillaume"
@@ -49,11 +49,11 @@ language = "en"
     [personal.info]
         github = "gdalle"
         # phone = "+33 6 12 34 56 78"
-        email = "guillaume.dalle.pro@gmail.com"
+        email = "guillaume.dalle@enpc.fr"
         linkedin = "guillaume-dalle"
         # gitlab = "gdalle"
         homepage = "gdalle.github.io"
-        # orcid = "0000-0000-0000-0000"
+        orcid = "0000-0003-4866-1687"
         # researchgate = "John-Doe"
         # extraInfo = "I am a cool kid"
 
