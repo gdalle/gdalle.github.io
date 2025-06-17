@@ -142,6 +142,13 @@
   ],
   "awards": [
     {
+      "title": "Julia Community Prize",
+      "date": "2024",
+      "awarder": "Julia programming language",
+      "url": "https://juliacon.org/2024/prize/",
+      "summary": "Awarded for major contributions to the open-source Julia ecosystem."
+    },
+    {
       "title": "Prix de thèse maths-entreprises",
       "date": "2023",
       "awarder": "Agence pour les Mathématiques en Interaction avec l'Entreprise et la Société",
