@@ -1,14 +1,14 @@
 {
   "basics": {
     "name": "Guillaume Dalle",
-    "label": "Postdoctoral researcher",
+    "label": "Researcher",
     "image": "",
     "email": "guillaume.dalle@enpc.fr",
     // "phone": "(912) 123-4567",
     "url": "https://gdalle.github.io/",
     // "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
     "location": {
-      // "address": "2712 Broadway St",
+      "address": "LVMT, ENPC"
       // "postalCode": "CA 94115",
       // "city": "San Francisco",
       // "countryCode": "US",
@@ -63,16 +63,31 @@
   "volunteer": [
     {
       // "organization": "Scientific journals and conferences",
-      // "location": "",
       "position": "Reviewer",
-      // "url": "",
       "startDate": "2021",
-      // "endDate": "2015-07-01",
       "summary": "Peer review for various scientific journals and conferences:",
       "highlights": [
-        "Journals: Transactions on Machine Learning Research, Journal of Open Source Software, Transportation Science.",
+        "Journals: Transactions on Machine Learning Research, Journal of Open Source Software, Transportation Science, Transportation Research.",
         "Conferences: NeurIPS, ICML, Learning on Graphs Conference, JuliaCon"
       ]
+    },
+    {
+      "organization": "JuliaCon Local",
+      "location": "Paris",
+      "position": "Conference organizer",
+      "url": "https://juliacon.org/local/paris2025/",
+      "startDate": "2025",
+      "endDate": "2025",
+      "summary": "Chair of a european conference on scientific computing"
+    },
+    {
+      "organization": "ROADEF",
+      "location": "Paris",
+      "position": "Conference organizer",
+      "url": "https://roadef2025.org/",
+      "startDate": "2025",
+      "endDate": "2025",
+      "summary": "Co-chair of the national French conference on operations research"
     }
   ],
   "education": [
@@ -148,12 +163,9 @@
       "summary": "Ranked first in the national competitive entrance exam to France's most prestigious engineering school."
     }
   ],
-  "certificates": [
-  ],
-  "publications": [
-  ],
-  "skills": [
-  ],
+  "certificates": [],
+  "publications": [],
+  "skills": [],
   "languages": [
     {
       "language": "French",
@@ -169,12 +181,14 @@
       "language": "German",
       "fluency": "Fluent",
       "icon": ""
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Beginner",
+      "icon": ""
     }
   ],
-  "interests": [
-  ],
-  "references": [
-  ],
-  "projects": [
-  ]
+  "interests": [],
+  "references": [],
+  "projects": []
 }

@@ -1,31 +1,63 @@
-"Baty":
+"baty":
   - firstname: ["Léo", "L."]
     url: https://batyleo.github.io/
 
-"Bouvier":
+"bouvier":
   - firstname: ["Louis", "L."]
     url: https://louisbouvier.github.io/
 
-"De Castro":
+"clarte":
+  - firstname: ["Lucas", "L"]
+    url: https://scholar.google.com/citations?user=NXIASgQAAAAJ&hl=en
+
+"de castro":
   - firstname: ["Yohann", "Y."]
     url: https://ydecastro.github.io/
 
-"de Castro":
-  - firstname: ["Yohann", "Y."]
-    url: https://ydecastro.github.io/
+"gebremedhin":
+  - firstname: ["Assefaw", "A."]
+    url: https://eecs.wsu.edu/~assefaw/
 
-"Parmentier":
+"hill":
+  - firstname: ["Adrian", "A."]
+    url: https://adrianhill.de/
+
+"krzakala":
+  - firstname: ["Florent", "F."]
+    url: "https://florentkrzakala.com/"
+
+"loureiro":
+  - firstname: ["Bruno", "B"]
+    url: https://brloureiro.github.io/
+
+"montoison":
+  - firstname: ["Alexis", "A."]
+    url: https://scholar.google.de/citations?user=9LSnmUEAAAAJ&hl=fr
+
+"parmentier":
   - firstname: ["Axel", "A."]
     url: https://cermics.enpc.fr/~parmenta/
 
-"Stephan":
+"stephan":
   - firstname: ["Pierre", "P."]
     url: https://www.linkedin.com/in/pierre-stephan-3441421a0/
 
-"Tarek":
+"tarek":
   - firstname: ["Mohamed", "M."]
     url: https://mohamed82008.github.io/
 
-"Vidal":
+"thiran":
+  - firstname: ["Patrick", "P."]
+    url: https://people.epfl.ch/patrick.thiran?lang=fr
+
+"vandenbroucque":
+  - firstname: ["Adrien", "A."]
+    url: https://adrienvdb.com/
+
+"vidal":
   - firstname: ["Thibaut", "T."]
     url: https://w1.cirrelt.ca/~vidalt/en/home-thibaut-vidal.html
+
+"zdeborova":
+  - firstname: ["Lenka", "L."]
+    url: https://people.epfl.ch/lenka.zdeborova/?lang=en

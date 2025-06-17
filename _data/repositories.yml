@@ -6,9 +6,9 @@ repo_description_lines_max: 2
 github_repos:
   - JuliaDiff/DifferentiationInterface.jl
   - JuliaGraphs/Graphs.jl
-  - JuliaDecisionFocusedLearning/ImplicitDifferentiation.jl
-  - JuliaDecisionFocusedLearning/InferOpt.jl
-  - gdalle/HiddenMarkovModels.jl
   - adrhill/SparseConnectivityTracer.jl
   - gdalle/SparseMatrixColorings.jl
+  - gdalle/HiddenMarkovModels.jl
+  - JuliaDecisionFocusedLearning/ImplicitDifferentiation.jl
+  - JuliaDecisionFocusedLearning/InferOpt.jl
   - modernjuliaworkflows/modernjuliaworkflows.github.io
