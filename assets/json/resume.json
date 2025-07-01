@@ -30,7 +30,8 @@
       "startDate": "2025",
       "endDate": "today",
       "summary": "Applied mathematics for transportation systems.",
-      "highlights": []
+      "highlights": [],
+      "url": "https://ecoledesponts.fr/en"
     },
     {
       "name": "EPFL",
@@ -39,7 +40,8 @@
       "startDate": "2023",
       "endDate": "2024",
       "summary": "Behavior of graph neural networks.",
-      "highlights": []
+      "highlights": [],
+      "url": "https://www.epfl.ch/en/"
     },
     {
       "name": "EDF R&D",
@@ -48,7 +50,8 @@
       "startDate": "2018",
       "endDate": "2018",
       "summary": "Markovian models for soiling estimation & cleaning optimization in solar power plants.",
-      "highlights": []
+      "highlights": [],
+      "url": "https://www.edf.fr/en/the-edf-group/inventing-the-future-of-energy/r-d-global-expertise"
     },
     {
       "name": "Foris AI",
@@ -57,7 +60,8 @@
       "startDate": "2017",
       "endDate": "2017",
       "summary": "Linear Programming & local search for university timetabling.",
-      "highlights": []
+      "highlights": [],
+      "url": "https://www.foris.ai/"
     }
   ],
   "volunteer": [
@@ -67,8 +71,8 @@
       "startDate": "2021",
       "summary": "Peer review for various scientific journals and conferences:",
       "highlights": [
-        "Journals: Transactions on Machine Learning Research, Journal of Open Source Software, Transportation Science, Transportation Research.",
-        "Conferences: NeurIPS, ICML, Learning on Graphs Conference, JuliaCon"
+        "Journals: <a href='https://jmlr.org/tmlr/'>Transactions on Machine Learning Research (TMLR)</a>, <a href='https://joss.theoj.org/'>Journal of Open Source Software (JOSS)</a>, <a href='https://pubsonline.informs.org/journal/trsc'>Transportation Science</a>, <a href='https://www.sciencedirect.com/journal/transportation-research'>Transportation Research</a>.",
+        "Conferences: <a href='https://neurips.cc/'>NeurIPS</a>, <a href='https://icml.cc/'>ICML</a>, <a href='https://logconference.org/'>Learning on Graphs Conference</a>, <a href='https://juliacon.org/'>JuliaCon</a>"
       ]
     },
     {

@@ -7,25 +7,31 @@ nav: true
 nav_order: 5
 ---
 
+## ENPC (2025-ongoing)
+
+Guest lecturer:
+
+- **Mobilité connectée : nouvelles données, nouveaux usages**: introduction au machine learning ([slides](https://gdalle.github.io/intro-ml/)) 
+
 ## EPFL (2023-2024)
 
 Teaching assistant and lecturer:
 
-- [Statistical physics for optimization & learning](https://edu.epfl.ch/coursebook/en/statistical-physics-for-optimization-learning-PHYS-642)
-- [Stochastic models in communication](https://edu.epfl.ch/coursebook/en/stochastic-models-in-communication-COM-300)
+- **[Statistical physics for optimization & learning](https://edu.epfl.ch/coursebook/en/statistical-physics-for-optimization-learning-PHYS-642)**
+- **[Stochastic models in communication](https://edu.epfl.ch/coursebook/en/stochastic-models-in-communication-COM-300)**
 
 ## MIT (2022-2023)
 
 Teaching assistant and lecturer:
 
-- [Julia - solving real-world problems with computation](https://github.com/mitmath/JuliaComputation)
+- **[Julia - solving real-world problems with computation](https://github.com/mitmath/JuliaComputation)**
 
 ## École des Ponts (2019-2021)
 
 Teaching assistant and lecturer:
 
-- Introduction to optimization (first year)
-- [Operations research](https://gdalle.github.io/REOP2021/) (second year)
+- **Introduction to optimization** (first year)
+- **[Operations research](https://gdalle.github.io/REOP2021/)** (second year)
 
 Co-creator of industry-inspired optimization challenges:
 
