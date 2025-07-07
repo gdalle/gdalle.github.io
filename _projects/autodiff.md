@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Autodiff in Julia
-description:
+title: Automatic differentiation in Julia
+description: A mix of old algorithms and new software for efficient scientific computing.
 img: assets/img/projects/di_logo.svg
-importance: 1
+importance: 2
 category: work
 related_publications: true
 ---
