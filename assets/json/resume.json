@@ -49,7 +49,7 @@
       "location": "France",
       "startDate": "2018",
       "endDate": "2018",
-      "summary": "Markovian models for soiling estimation & cleaning optimization in solar power plants.",
+      "summary": "Soiling estimation & cleaning optimization in solar power plants.",
       "highlights": [],
       "url": "https://www.edf.fr/en/the-edf-group/inventing-the-future-of-energy/r-d-global-expertise"
     },
@@ -71,9 +71,17 @@
       "startDate": "2021",
       "summary": "Peer review for various scientific journals and conferences:",
       "highlights": [
-        "Journals: <a href='https://jmlr.org/tmlr/'>Transactions on Machine Learning Research (TMLR)</a>, <a href='https://joss.theoj.org/'>Journal of Open Source Software (JOSS)</a>, <a href='https://pubsonline.informs.org/journal/trsc'>Transportation Science</a>, <a href='https://www.sciencedirect.com/journal/transportation-research'>Transportation Research</a>.",
-        "Conferences: <a href='https://neurips.cc/'>NeurIPS</a>, <a href='https://icml.cc/'>ICML</a>, <a href='https://logconference.org/'>Learning on Graphs Conference</a>, <a href='https://juliacon.org/'>JuliaCon</a>"
+        "Journals: <ul><li><a href='https://jmlr.org/tmlr/'>Transactions on Machine Learning Research (TMLR)</a> [expert reviewer]</li> <li><a href='https://joss.theoj.org/'>Journal of Open Source Software (JOSS)</a></li> <li><a href='https://pubsonline.informs.org/journal/trsc'>Transportation Science</a></li> <li><a href='https://www.sciencedirect.com/journal/transportation-research'>Transportation Research</a></li></ul>",
+        "Conferences: <ul><li><a href='https://neurips.cc/'>NeurIPS</a> (2025)</li> <li><a href='https://logconference.org/'>Learning on Graphs Conference</a> (2024, 2025)</li> <li><a href='https://icml.cc/'>ICML</a> (2023)</li> <li><a href='https://juliacon.org/'>JuliaCon</a> (2021-2025)</li></ul>"
       ]
+    },
+    {
+      "organization": "Transactions in Machine Learning Research",
+      "position": "Action editor",
+      "url": "https://jmlr.org/tmlr/",
+      "startDate": "2025",
+      "summary": "Coordination of peer review and selection of accepted papers.",
+      "highlights": []
     },
     {
       "organization": "JuliaCon Local",
@@ -104,7 +112,6 @@
       "startDate": "2019",
       "endDate": "2022",
       "courses": [
-        "Coursework in machine learning and optimization",
         "Dissertation: 'Machine Learning and Combinatorial Optimization Algorithms, with Applications to Railway Planning'"
       ]
     },
@@ -117,7 +124,7 @@
       "startDate": "2018",
       "endDate": "2019",
       "courses": [
-        "Coursework in applied mathematics, computer science and humanities",
+        "Coursework in machine learning and optimization",
         "Dissertation: 'Delay propagation on suburban railway networks'"
       ]
     },

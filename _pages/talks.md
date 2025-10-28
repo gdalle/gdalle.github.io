@@ -9,6 +9,10 @@ nav_order: 8
 
 ## Conferences
 
+### 2025
+
+- [Royal Statistical Society International Conference](https://rss.org.uk/training-events/conference-2025/): _Teaching with Julia_ ([abstract](https://virtual.oxfordabstracts.com/event/40660/submission/492), [slides](https://gdalle.github.io/RSS2025-TeachingJulia/))
+
 ### 2024
 
 - [PyData Global](https://pydata.org/global2024): _Automatic differentiation: a tale of two languages_ ([abstract](https://global2024.pydata.org/cfp/talk/QZXXWN/), [slides](https://gdalle.github.io/PyData2024-AutoDiff/#/title-slide), [recording](https://www.youtube.com/watch?v=4sF-Wm8w31c))
@@ -43,7 +47,9 @@ nav_order: 8
 
 ### 2025
 
-- Laboratoire Jean Kuntzmann, Grenoble: _Sparser, better, faster, stronger - automatic differentiation with a lot of zeros_ ([slides](https://github.com/gdalle/SparseAutodiffTutorial/blob/96bbdcd8160b3594ab4cfe5c027c172cf42e6a36/ljk/sparse_autodiff_ljk.pdf))
+- Cycle de conférences SMAI & Musée des arts et métiers: _Des mathématiques pour faire rouler des trains_ ([web page](http://smai.emath.fr/spip.php?article643&lang=fr), [slides](https://gdalle.github.io/SMAI2025/#/title-slide))
+- AdONE Summer School on Optimization-augmented Machine Learning: _Introduction to automatic differentiation_ ([slides](https://github.com/gdalle/AutodiffCourse/releases/download/lecture2/1_intro.pdf)) & _Advanced automatic differentiation_ ([slides](https://github.com/gdalle/AutodiffCourse/releases/download/lecture2/2_advanced.pdf))
+- Laboratoire Jean Kuntzmann, Grenoble: _Sparser, better, faster, stronger - automatic differentiation with a lot of zeros_ ([abstract](https://www-ljk.imag.fr/spip.php?article35&id=67d3e664aa3a468b620f8c8f&type=SEMINAIRE), [slides](https://github.com/gdalle/SparseAutodiffTutorial/blob/96bbdcd8160b3594ab4cfe5c027c172cf42e6a36/ljk/sparse_autodiff_ljk.pdf))
 - Laboratoire Ville Mobilité Transport: _Mixing data, optimization and decision: the role of automatic differentiation_ ([slides](https://gdalle.github.io/LVMTSeminaire2025/))
 - Califrais, Paris: _A tutorial on algorithmic differentiation_ ([slides](https://gdalle.github.io/AutodiffTutorial/califrais.html))
 - Julia Meetup Paris: _Automatic differentiation: a tale of two languages_ ([slides](https://gdalle.github.io/JuliaMeetup2025-Autodiff/#/title-slide))
