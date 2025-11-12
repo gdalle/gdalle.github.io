@@ -15,6 +15,7 @@ Inventory Routing Problem_ (2021)
 
 ## PhD defense juries
 
+- [Aurora Rossi](https://aurorarossi.github.io/): _Computational Methods and Analysis of Temporal Networks_ (2025)
 - [Léo Baty](https://batyleo.github.io/): _Combinatorial optimization and decision-focused learning: algorithms, implementations, and applications at Air France_ (2025)
 
 ## Short projects
