@@ -7,31 +7,42 @@ nav: true
 nav_order: 5
 ---
 
-## ENPC (2025-ongoing)
+## MPRO (2025-ongoing)
 
 Guest lecturer:
 
-- **Mobilité connectée : nouvelles données, nouveaux usages**: introduction au machine learning ([slides](https://gdalle.github.io/intro-ml/)) 
+- APOC: [**Deep learning for combinatorial optimization**](https://uma.ip-paris.fr/mpro/seconde-annee-du-mpro/apprentissage-profond-pour-les-problemes-doptimisation-combinatoire-apoc) ([slides](https://github.com/gdalle/MPROCourses/tree/1b9b9ca741dceda5013914ce837cdc54c2c04ad0/ROAPA))
+- DECO: [**Decomposition methods for integer programming**](https://uma.ip-paris.fr/mpro/seconde-annee-du-mpro/methodes-de-decomposition-en-programmation-lineaire-en-nombres-entiers-deco) ([notes](https://github.com/gdalle/MPROCourses/tree/main/DECO))
+
+## ENPC (2025-ongoing)
+
+Teaching assistant:
+
+- 1OPTI: [**Introduction to optimization**](https://educnet.enpc.fr/enrol/index.php?id=567)
+
+Guest lecturer:
+
+- MCNDU: [**Mobilité connectée : nouvelles données, nouveaux usages**](https://educnet.enpc.fr/enrol/index.php?id=792) ([slides](https://gdalle.github.io/intro-ml/))
 
 ## EPFL (2023-2024)
 
 Teaching assistant and lecturer:
 
-- **[Statistical physics for optimization & learning](https://edu.epfl.ch/coursebook/en/statistical-physics-for-optimization-learning-PHYS-642)**
-- **[Stochastic models in communication](https://edu.epfl.ch/coursebook/en/stochastic-models-in-communication-COM-300)**
+- [**Statistical physics for optimization & learning**](https://edu.epfl.ch/coursebook/en/statistical-physics-for-optimization-learning-PHYS-642)
+- [**Stochastic models in communication**](https://edu.epfl.ch/coursebook/en/stochastic-models-in-communication-COM-300)
 
 ## MIT (2022-2023)
 
 Teaching assistant and lecturer:
 
-- **[Julia - solving real-world problems with computation](https://github.com/mitmath/JuliaComputation)**
+- [**Julia - solving real-world problems with computation**](https://github.com/mitmath/JuliaComputation)
 
 ## École des Ponts (2019-2021)
 
 Teaching assistant and lecturer:
 
-- **Introduction to optimization** (first year)
-- **[Operations research](https://gdalle.github.io/REOP2021/)** (second year)
+- 1OPTI: [**Introduction to optimization**](https://educnet.enpc.fr/enrol/index.php?id=567)
+- REOP: [**Operations research**](https://gdalle.github.io/REOP2021/) (second year)
 
 Co-creator of industry-inspired optimization challenges:
 
