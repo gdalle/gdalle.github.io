@@ -153,6 +153,13 @@
   ],
   "awards": [
     {
+      "title": "National open science prize for research software",
+      "date": "2025",
+      "awarder": "French ministry for higher education and research",
+      "url": "https://www.ouvrirlascience.fr/remise-des-prix-science-ouverte-du-logiciel-libre-de-recherche-edition-2025/",
+      "summary": "Distinguishes a promising open-source development and community around the DifferentiationInterface.jl Julia package."
+    },
+    {
       "title": "Julia Community Prize",
       "date": "2024",
       "awarder": "Julia programming language",
