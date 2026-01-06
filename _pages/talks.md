@@ -11,7 +11,9 @@ nav_order: 8
 
 ### 2025
 
+- [RT Optimisation](https://indico.math.cnrs.fr/event/14650/): _Linear and combinatorial optimization on GPUs_ (poster)
 - [Royal Statistical Society International Conference](https://rss.org.uk/training-events/conference-2025/): _Teaching with Julia_ ([abstract](https://virtual.oxfordabstracts.com/event/40660/submission/492), [slides](https://gdalle.github.io/RSS2025-TeachingJulia/))
+- [ROADEF](https://roadef2025.org/): _Decision-focused learning: software meets theory_ ([abstract](https://roadef2025.org/wp-content/uploads/2025/02/ROADEF2025_resumes.pdf))
 
 ### 2024
 
