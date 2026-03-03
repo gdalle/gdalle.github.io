@@ -1,185 +1,192 @@
+
+@misc{dalleLearningCombinatorialOptimization2022,
+	title = {Learning with {Combinatorial} {Optimization} {Layers}: a {Probabilistic} {Approach}},
+	shorttitle = {Learning with {Combinatorial} {Optimization} {Layers}},
+	url = {http://arxiv.org/abs/2207.13513},
+	doi = {10.48550/arXiv.2207.13513},
+	abstract = {Combinatorial optimization (CO) layers in machine learning (ML) pipelines are a powerful tool to tackle data-driven decision tasks, but they come with two main challenges. First, the solution of a CO problem often behaves as a piecewise constant function of its objective parameters. Given that ML pipelines are typically trained using stochastic gradient descent, the absence of slope information is very detrimental. Second, standard ML losses do not work well in combinatorial settings. A growing body of research addresses these challenges through diverse methods. Unfortunately, the lack of well-maintained implementations slows down the adoption of CO layers. In this paper, building upon previous works, we introduce a probabilistic perspective on CO layers, which lends itself naturally to approximate differentiation and the construction of structured losses. We recover many approaches from the literature as special cases, and we also derive new ones. Based on this unifying perspective, we present InferOpt.jl, an open-source Julia package that 1) allows turning any CO oracle with a linear objective into a differentiable layer, and 2) defines adequate losses to train pipelines containing such layers. Our library works with arbitrary optimization algorithms, and it is fully compatible with Julia's ML ecosystem. We demonstrate its abilities using a pathfinding problem on video game maps as guiding example, as well as three other applications from operations research.},
+	publisher = {arXiv},
+	author = {Dalle, Guillaume and Baty, Léo and Bouvier, Louis and Parmentier, Axel},
+	month = dec,
+	year = {2022},
+	note = {arXiv:2207.13513 [cs, math, stat]
+tex.abbr: Preprint
+tex.code: https://github.com/JuliaDecisionFocusedLearning/InferOpt.jl},
+}
+
 @article{bouvierSolvingContinentScaleInventory2023,
-  title = {Solving a {{Continent-Scale Inventory Routing Problem}} at {{Renault}}},
-  author = {Bouvier, Louis and Dalle, Guillaume and Parmentier, Axel and Vidal, Thibaut},
-  year = {2023},
-  month = oct,
-  journal = {Transportation Science},
-  publisher = {INFORMS},
-  issn = {0041-1655},
-  doi = {10.1287/trsc.2022.0342},
-  url = {https://pubsonline.informs.org/doi/full/10.1287/trsc.2022.0342},
-  abbr = {Journal},
-  abstract = {This paper is the fruit of a partnership with Renault. Their reverse logistic requires solving a continent-scale multiattribute inventory routing problem (IRP). With an average of 30 commodities, 16 depots, and 600 customers spread across a continent, our instances are orders of magnitude larger than those in the literature. Existing algorithms do not scale, so we propose a large neighborhood search (LNS). To make it work, (1) we generalize existing split delivery vehicle routing problems and IRP neighborhoods to this context, (2) we turn a state-of-the-art matheuristic for medium-scale IRP into a large neighborhood, and (3) we introduce two novel perturbations: the reinsertion of a customer and that of a commodity into the IRP solution. We also derive a new lower bound based on a flow relaxation. In order to stimulate the research on large-scale IRP, we introduce a library of industrial instances. We benchmark our algorithms on these instances and make our code open source. Extensive numerical experiments highlight the relevance of each component of our LNS. Funding: This work was supported by Renault Group. Supplemental Material: The online appendix is available at https://doi.org/10.1287/trsc.2022.0342.},
-  code = {https://github.com/LouisBouvier/InventoryRoutingLNS.jl},
-  pdf = {https://arxiv.org/pdf/2209.00412}
+	title = {Solving a {Continent}-{Scale} {Inventory} {Routing} {Problem} at {Renault}},
+	issn = {0041-1655},
+	url = {https://pubsonline.informs.org/doi/full/10.1287/trsc.2022.0342},
+	doi = {10.1287/trsc.2022.0342},
+	abstract = {This paper is the fruit of a partnership with Renault. Their reverse logistic requires solving a continent-scale multiattribute inventory routing problem (IRP). With an average of 30 commodities, 16 depots, and 600 customers spread across a continent, our instances are orders of magnitude larger than those in the literature. Existing algorithms do not scale, so we propose a large neighborhood search (LNS). To make it work, (1) we generalize existing split delivery vehicle routing problems and IRP neighborhoods to this context, (2) we turn a state-of-the-art matheuristic for medium-scale IRP into a large neighborhood, and (3) we introduce two novel perturbations: the reinsertion of a customer and that of a commodity into the IRP solution. We also derive a new lower bound based on a flow relaxation. In order to stimulate the research on large-scale IRP, we introduce a library of industrial instances. We benchmark our algorithms on these instances and make our code open source. Extensive numerical experiments highlight the relevance of each component of our LNS.
+
+Funding: This work was supported by Renault Group.
+
+Supplemental Material: The online appendix is available at https://doi.org/10.1287/trsc.2022.0342.},
+	journal = {Transportation Science},
+	publisher = {INFORMS},
+	author = {Bouvier, Louis and Dalle, Guillaume and Parmentier, Axel and Vidal, Thibaut},
+	month = oct,
+	year = {2023},
+	note = {tex.abbr: Journal
+tex.pdf: https://arxiv.org/pdf/2209.00412
+tex.code: https://github.com/LouisBouvier/InventoryRoutingLNS.jl},
 }
 
 @inproceedings{clarteAnalysisBootstrapSubsampling2024,
-  title = {Analysis of {{Bootstrap}} and {{Subsampling}} in {{High-dimensional Regularized Regression}}},
-  booktitle = {The 40th {{Conference}} on {{Uncertainty}} in {{Artificial Intelligence}}},
-  author = {Clart{\'e}, Lucas and Vandenbroucque, Adrien and Dalle, Guillaume and Loureiro, Bruno and Krzakala, Florent and Zdeborova, Lenka},
-  year = {2024},
-  month = jun,
-  eprint = {2402.13622},
-  url = {https://openreview.net/forum?id=yZaXk3OxVS},
-  abbr = {Proceedings},
-  abstract = {We investigate popular resampling methods for estimating the uncertainty of statistical models, such as subsampling, bootstrap and the jackknife, and their performance in high-dimensional supervised regression tasks. We provide a tight asymptotic description of the biases and variances estimated by these methods in the context of generalized linear models, such as ridge and logistic regression, taking the limit where the number of samples \$n\$ and dimension \$d\$ of the covariates grow at a comparable rate: \${\textbackslash}alpha=n/d\$ fixed. Our findings are three-fold: i) resampling methods are fraught with problems in high dimensions and exhibit the double-descent-like behavior typical of these situations; ii) only when \${\textbackslash}alpha\$ is large enough do they provide consistent and reliable error estimations (we give convergence rates); iii) in the over-parametrized regime \${\textbackslash}alpha{$<$}1\$ relevant to modern machine learning practice, their predictions are not consistent, even with optimal regularization.},
-  archiveprefix = {arXiv},
-  langid = {english},
-  pdf = {https://openreview.net/forum?id=yZaXk3OxVS}
-}
-
-@misc{dalleCommonInterfaceAutomatic2025,
-  title = {A {{Common Interface}} for {{Automatic Differentiation}}},
-  author = {Dalle, Guillaume and Hill, Adrian},
-  year = {2025},
-  month = may,
-  number = {arXiv:2505.05542},
-  eprint = {2505.05542},
-  primaryclass = {cs},
-  publisher = {arXiv},
-  doi = {10.48550/arXiv.2505.05542},
-  url = {http://arxiv.org/abs/2505.05542},
-  abbr = {Preprint},
-  abstract = {For scientific machine learning tasks with a lot of custom code, picking the right Automatic Differentiation (AD) system matters. Our Julia package DifferentiationInterface.jl provides a common frontend to a dozen AD backends, unlocking easy comparison and modular development. In particular, its built-in preparation mechanism leverages the strengths of each backend by amortizing one-time computations. This is key to enabling sophisticated features like sparsity handling without putting additional burdens on the user.},
-  archiveprefix = {arXiv},
-  code = {https://github.com/JuliaDiff/DifferentiationInterface.jl}
+	title = {Analysis of {Bootstrap} and {Subsampling} in {High}-dimensional {Regularized} {Regression}},
+	url = {https://openreview.net/forum?id=yZaXk3OxVS},
+	abstract = {We investigate popular resampling methods for estimating the uncertainty of statistical models, such as subsampling, bootstrap and the jackknife, and their performance in high-dimensional supervised regression tasks. We provide a tight asymptotic description of the biases and variances estimated by these methods in the context of generalized linear models, such as ridge and logistic regression, taking the limit where the number of samples \$n\$ and dimension \$d\$ of the covariates grow at a comparable rate: \${\textbackslash}alpha=n/d\$ fixed. Our findings are three-fold: i) resampling methods are fraught with problems in high dimensions and exhibit the double-descent-like behavior typical of these situations; ii) only when \${\textbackslash}alpha\$ is large enough do they provide consistent and reliable error estimations (we give convergence rates); iii) in the over-parametrized regime \${\textbackslash}alpha{\textless}1\$ relevant to modern machine learning practice, their predictions are not consistent, even with optimal regularization.},
+	language = {en},
+	urldate = {2024-11-21},
+	author = {Clarté, Lucas and Vandenbroucque, Adrien and Dalle, Guillaume and Loureiro, Bruno and Krzakala, Florent and Zdeborova, Lenka},
+	month = jun,
+	year = {2024},
+	note = {tex.abbr: Proceedings
+tex.arxiv: 2402.13622
+tex.pdf: https://openreview.net/forum?id=yZaXk3OxVS},
 }
 
 @article{dalleHiddenMarkovModelsjlGenericFast2024,
-  title = {{{HiddenMarkovModels}}.Jl: Generic, Fast and Reliable State Space Modeling},
-  shorttitle = {{{HiddenMarkovModels}}.Jl},
-  author = {Dalle, Guillaume},
-  year = {2024},
-  month = apr,
-  journal = {Journal of Open Source Software},
-  volume = {9},
-  number = {96},
-  pages = {6436},
-  issn = {2475-9066},
-  doi = {10.21105/joss.06436},
-  url = {https://joss.theoj.org/papers/10.21105/joss.06436},
-  abbr = {Journal},
-  abstract = {Dalle, G., (2024). HiddenMarkovModels.jl: generic, fast and reliable state space modeling. Journal of Open Source Software, 9(96), 6436, https://doi.org/10.21105/joss.06436},
-  code = {https://github.com/gdalle/HiddenMarkovModels.jl},
-  langid = {english}
-}
-
-@misc{dalleLearningCombinatorialOptimization2022,
-  title = {Learning with {{Combinatorial Optimization Layers}}: A {{Probabilistic Approach}}},
-  shorttitle = {Learning with {{Combinatorial Optimization Layers}}},
-  author = {Dalle, Guillaume and Baty, L{\'e}o and Bouvier, Louis and Parmentier, Axel},
-  year = {2022},
-  month = dec,
-  number = {arXiv:2207.13513},
-  eprint = {2207.13513},
-  primaryclass = {cs, math, stat},
-  publisher = {arXiv},
-  doi = {10.48550/arXiv.2207.13513},
-  url = {http://arxiv.org/abs/2207.13513},
-  abbr = {Preprint},
-  abstract = {Combinatorial optimization (CO) layers in machine learning (ML) pipelines are a powerful tool to tackle data-driven decision tasks, but they come with two main challenges. First, the solution of a CO problem often behaves as a piecewise constant function of its objective parameters. Given that ML pipelines are typically trained using stochastic gradient descent, the absence of slope information is very detrimental. Second, standard ML losses do not work well in combinatorial settings. A growing body of research addresses these challenges through diverse methods. Unfortunately, the lack of well-maintained implementations slows down the adoption of CO layers. In this paper, building upon previous works, we introduce a probabilistic perspective on CO layers, which lends itself naturally to approximate differentiation and the construction of structured losses. We recover many approaches from the literature as special cases, and we also derive new ones. Based on this unifying perspective, we present InferOpt.jl, an open-source Julia package that 1) allows turning any CO oracle with a linear objective into a differentiable layer, and 2) defines adequate losses to train pipelines containing such layers. Our library works with arbitrary optimization algorithms, and it is fully compatible with Julia's ML ecosystem. We demonstrate its abilities using a pathfinding problem on video game maps as guiding example, as well as three other applications from operations research.},
-  archiveprefix = {arXiv},
-  code = {https://github.com/JuliaDecisionFocusedLearning/InferOpt.jl}
+	title = {{HiddenMarkovModels}.jl: generic, fast and reliable state space modeling},
+	volume = {9},
+	issn = {2475-9066},
+	shorttitle = {{HiddenMarkovModels}.jl},
+	url = {https://joss.theoj.org/papers/10.21105/joss.06436},
+	doi = {10.21105/joss.06436},
+	abstract = {Dalle, G., (2024). HiddenMarkovModels.jl: generic, fast and reliable state space modeling. Journal of Open Source Software, 9(96), 6436, https://doi.org/10.21105/joss.06436},
+	language = {en},
+	number = {96},
+	urldate = {2024-07-05},
+	journal = {Journal of Open Source Software},
+	author = {Dalle, Guillaume},
+	month = apr,
+	year = {2024},
+	note = {tex.abbr: Journal
+tex.code: https://github.com/gdalle/HiddenMarkovModels.jl},
+	pages = {6436},
 }
 
 @phdthesis{dalleMachineLearningCombinatorial2022,
-  title = {Machine Learning and Combinatorial Optimization Algorithms, with Applications to Railway Planning},
-  author = {Dalle, Guillaume},
-  year = {2022},
-  month = dec,
-  url = {https://pastel.hal.science/tel-04053322},
-  abbr = {Thesis},
-  abstract = {This thesis investigates the frontier between machine learning and combinatorial optimization, two active areas of applied mathematics research. We combine theoretical insights with efficient algorithms, and develop several open source Julia libraries. Inspired by a collaboration with the Soci{\'e}t{\'e} nationale des chemins de fer fran{\c c}ais (SNCF), we study high-impact use cases from the railway world: train failure prediction, delay propagation, and track allocation. In Part I, we provide mathematical background and describe software implementations for various tools that will be needed later on: implicit differentiation, temporal point processes, Hidden Markov Models and Multi-Agent Path Finding. Our publicly available code fills a void in the Julia package ecosystem, aiming at ease of use without compromising on performance. In Part II, we highlight theoretical contributions related to both statistics and decision-making. We consider a Vector AutoRegressive process with partial observations, and prove matching upper and lower bounds on the estimation error. We unify and extend the state of the art for combinatorial optimization layers in deep learning, gathering various approaches in a Julia library called InferOpt.jl. We also seek to differentiate through multi-objective optimization layers, which leads to a novel theory of lexicographic convex analysis. In Part III, these mathematical and algorithmic foundations come together to tackle railway problems. We design a hierarchical model of train failures, propose a graph-based framework for delay propagation, and suggest new avenues for track allocation, with the Flatland challenge as a testing ground.},
-  langid = {english},
-  pdf = {https://pastel.hal.science/tel-04053322},
-  school = {{\'E}cole des Ponts ParisTech},
-  annotation = {HAL\_ID: tel-04053322}
-}
-
-@article{dalleMinimaxEstimationPartiallyobserved2025,
-  title = {Minimax Estimation of Partially-Observed Vector Autoregressions},
-  author = {Dalle, Guillaume and Castro, Yohann De},
-  year = {2025},
-  month = jan,
-  journal = {Electronic Journal of Statistics},
-  volume = {19},
-  number = {1},
-  pages = {2364--2410},
-  publisher = {{Institute of Mathematical Statistics and Bernoulli Society}},
-  issn = {1935-7524, 1935-7524},
-  doi = {10.1214/25-EJS2387},
-  url = {https://projecteuclid.org/journals/electronic-journal-of-statistics/volume-19/issue-1/Minimax-estimation-of-partially-observed-vector-autoregressions/10.1214/25-EJS2387.full},
-  abbr = {Journal},
-  abstract = {Multi-dimensional time series are a core ingredient of the statistical modeling toolkit, for which numerous estimation methods are known. But when observations are scarce or corrupted, the learning task becomes much harder. The question is: how much harder? In this paper, we study the properties of a partially-observed Vector AutoRegressive process, which is a state-space model endowed with a stochastic observation mechanism. Our goal is to estimate its transition matrix, but we only have access to a small and noisy subsample of the state components. We start by describing an estimator based on the Yule-Walker equation and the Dantzig selector, and we give an upper bound on its non-asymptotic error. Then, we provide a matching minimax lower bound, thus proving near-optimality of our estimator. The convergence rate we obtain sheds light on the role of several key parameters such as the sampling ratio, the amount of noise and the number of non-zero coefficients in the transition matrix, which can be dense in low dimension but is usually sparse in high dimension. These theoretical findings are commented and illustrated by numerical experiments on simulated data.}
-}
-
-@inproceedings{dalleOptimalPerformanceGraph2024,
-  title = {Optimal Performance of {{Graph Convolutional Networks}} on the {{Contextual Stochastic Block Model}}},
-  booktitle = {The {{Third Learning}} on {{Graphs Conference}}},
-  author = {Dalle, Guillaume and Thiran, Patrick},
-  year = {2024},
-  month = nov,
-  url = {https://openreview.net/forum?id=NJrOLuM2Ro},
-  abbr = {Proceedings},
-  abstract = {For Graph Neural Networks, oversmoothing denotes the homogenization of vertex embeddings as the number of layers increases. To better understand this phenomenon, we study community detection with a linearized Graph Convolutional Network on the Contextual Stochastic Block Model. We express the distribution of the embeddings in each community as a Gaussian mixture over a low-dimensional latent space, with explicit formulas in the case of a single layer. This yields tractable estimators for classification accuracy at finite depth. Numerical experiments suggest that modeling with a single Gaussian is insufficient and that the impact of depth may be more complex than previously anticipated.},
-  langid = {english},
-  pdf = {https://openreview.net/forum?id=NJrOLuM2Ro}
-}
-
-@inproceedings{hillIllustratedGuideAutomatic2025,
-  title = {An Illustrated Guide to Automatic Sparse Differentiation},
-  booktitle = {{{ICLR}} Blogposts 2025},
-  author = {Hill, Adrian and Dalle, Guillaume and Montoison, Alexis},
-  year = {2025},
-  month = apr,
-  url = {https://iclr-blogposts.github.io/2025/blog/sparse-autodiff/},
-  abbr = {Blog post},
-  abstract = {In numerous applications of machine learning, Hessians and Jacobians exhibit sparsity, a property that can be leveraged to vastly accelerate their computation. While the usage of automatic differentiation in machine learning is ubiquitous, automatic sparse differentiation (ASD) remains largely unknown. This post introduces ASD, explaining its key components and their roles in the computation of both sparse Jacobians and Hessians. We conclude with a practical demonstration showcasing the performance benefits of ASD.},
-  blog = {https://iclr-blogposts.github.io/2025/blog/sparse-autodiff/}
-}
-
-@article{hillSparserBetterFaster2025,
-  title = {Sparser, Better, Faster, Stronger: {{Sparsity}} Detection for Efficient Automatic Differentiation},
-  author = {Hill, Adrian and Dalle, Guillaume},
-  year = {2025},
-  journal = {Transactions on Machine Learning Research},
-  issn = {2835-8856},
-  url = {https://openreview.net/forum?id=GtXSN52nIW},
-  abbr = {Journal},
-  abstract = {From implicit differentiation to probabilistic modeling, Jacobian and Hessian matrices have many potential use cases in Machine Learning (ML), but they are viewed as computationally prohibitive. Fortunately, these matrices often exhibit sparsity, which can be leveraged to speed up the process of Automatic Differentiation (AD). This paper presents advances in sparsity detection, previously the performance bottleneck of Automatic Sparse Differentiation (ASD). Our implementation of sparsity detection is based on operator overloading, able to detect both local and global sparsity patterns, and supports flexible index set representations. It is fully automatic and requires no modification of user code, making it compatible with existing ML codebases. Most importantly, it is highly performant, unlocking Jacobians and Hessians at scales where they were considered too expensive to compute. On real-world problems from scientific ML, graph neural networks and optimization, we show significant speed-ups of up to three orders of magnitude. Notably, using our sparsity detection system, ASD outperforms standard AD for one-off computations, without amortization of either sparsity detection or matrix coloring.},
-  code = {https://github.com/adrhill/SparseConnectivityTracer.jl},
-  pdf = {https://openreview.net/pdf?id=GtXSN52nIW}
-}
-
-@misc{montoisonRevisitingSparseMatrix2025,
-  title = {Revisiting {{Sparse Matrix Coloring}} and {{Bicoloring}}},
-  author = {Montoison, Alexis and Dalle, Guillaume and Gebremedhin, Assefaw},
-  year = {2025},
-  month = may,
-  number = {arXiv:2505.07308},
-  eprint = {2505.07308},
-  primaryclass = {math},
-  publisher = {arXiv},
-  doi = {10.48550/arXiv.2505.07308},
-  url = {http://arxiv.org/abs/2505.07308},
-  abbr = {Preprint},
-  abstract = {Sparse matrix coloring and bicoloring are fundamental building blocks of sparse automatic differentiation. Bicoloring is particularly advantageous for rectangular Jacobian matrices with at least one dense row and column. Indeed, in such cases, unidirectional row or column coloring demands a number of colors equal to the number of rows or columns. We introduce a new strategy for bicoloring that encompasses both direct and substitution-based decompression approaches. Our method reformulates the two variants of bicoloring as star and acyclic colorings of an augmented symmetric matrix. We extend the concept of neutral colors, previously exclusive to bicoloring, to symmetric colorings, and we propose a post-processing routine that neutralizes colors to further reduce the overall color count. We also present the Julia package SparseMatrixColorings, which includes these new bicoloring algorithms alongside all standard coloring methods for sparse derivative matrix computation. Compared to ColPack, the Julia package also offers enhanced implementations for star and acyclic coloring, vertex ordering, as well as decompression.},
-  archiveprefix = {arXiv},
-  code = {https://github.com/gdalle/SparseMatrixColorings.jl}
+	type = {{PhD} {Thesis}},
+	title = {Machine learning and combinatorial optimization algorithms, with applications to railway planning},
+	url = {https://pastel.hal.science/tel-04053322},
+	abstract = {This thesis investigates the frontier between machine learning and combinatorial optimization, two active areas of applied mathematics research. We combine theoretical insights with efficient algorithms, and develop several open source Julia libraries. Inspired by a collaboration with the Société nationale des chemins de fer français (SNCF), we study high-impact use cases from the railway world: train failure prediction, delay propagation, and track allocation. In Part I, we provide mathematical background and describe software implementations for various tools that will be needed later on: implicit differentiation, temporal point processes, Hidden Markov Models and Multi-Agent Path Finding. Our publicly available code fills a void in the Julia package ecosystem, aiming at ease of use without compromising on performance. In Part II, we highlight theoretical contributions related to both statistics and decision-making. We consider a Vector AutoRegressive process with partial observations, and prove matching upper and lower bounds on the estimation error. We unify and extend the state of the art for combinatorial optimization layers in deep learning, gathering various approaches in a Julia library called InferOpt.jl. We also seek to differentiate through multi-objective optimization layers, which leads to a novel theory of lexicographic convex analysis. In Part III, these mathematical and algorithmic foundations come together to tackle railway problems. We design a hierarchical model of train failures, propose a graph-based framework for delay propagation, and suggest new avenues for track allocation, with the Flatland challenge as a testing ground.},
+	language = {en},
+	urldate = {2024-04-05},
+	school = {École des Ponts ParisTech},
+	author = {Dalle, Guillaume},
+	month = dec,
+	year = {2022},
+	note = {HAL\_ID: tel-04053322
+tex.abbr: Thesis
+tex.pdf: https://pastel.hal.science/tel-04053322},
 }
 
 @patent{stephanMethodDeterminingSoiling2020,
-  title = {Method for Determining a Soiling Speed of a Photovoltaic Generation Unit},
-  author = {Stephan, Pierre and Dalle, Guillaume},
-  year = {2020},
-  month = jun,
-  number = {WO2020115431A1},
-  url = {https://patents.google.com/patent/WO2020115431A1/en},
-  abbr = {Patent},
-  abstract = {The invention relates to a method for determining a soiling speed of a photovoltaic generation unit, in which, on the basis of values of an electrical variable generated by the photovoltaic generation unit at a plurality of moments in a time series and corresponding values of meteorological parameters, and on the basis of a relationship between an electrical variable generated by said generation unit at one moment, the values taken with the meteorological parameters at the same moment, and the occurrence of cleaning events, wherein said relationship comprises multiple relational parameters including the speed of soiling and the occurrence of a cleaning event is modelled by a probability law involving a relational parameter, the soiling speed is determined in iterations in which vectors that are representative of the occurrence of cleaning events are simulated.},
-  assignee = {Electricite De France},
-  langid = {english},
-  nationality = {WO},
-  website = {https://patents.google.com/patent/WO2020115431A1/en}
+	title = {Method for determining a soiling speed of a photovoltaic generation unit},
+	url = {https://patents.google.com/patent/WO2020115431A1/en},
+	abstract = {The invention relates to a method for determining a soiling speed of a photovoltaic generation unit, in which, on the basis of values of an electrical variable generated by the photovoltaic generation unit at a plurality of moments in a time series and corresponding values of meteorological parameters, and on the basis of a relationship between an electrical variable generated by said generation unit at one moment, the values taken with the meteorological parameters at the same moment, and the occurrence of cleaning events, wherein said relationship comprises multiple relational parameters including the speed of soiling and the occurrence of a cleaning event is modelled by a probability law involving a relational parameter, the soiling speed is determined in iterations in which vectors that are representative of the occurrence of cleaning events are simulated.},
+	nationality = {WO},
+	language = {English},
+	assignee = {Electricite De France},
+	number = {WO2020115431A1},
+	author = {Stephan, Pierre and Dalle, Guillaume},
+	month = jun,
+	year = {2020},
+	note = {tex.abbr: Patent
+tex.website: https://patents.google.com/patent/WO2020115431A1/en},
+}
+
+@inproceedings{hillIllustratedGuideAutomatic2025,
+	title = {An illustrated guide to automatic sparse differentiation},
+	url = {https://iclr-blogposts.github.io/2025/blog/sparse-autodiff/},
+	abstract = {In numerous applications of machine learning, Hessians and Jacobians exhibit sparsity, a property that can be leveraged to vastly accelerate their computation. While the usage of automatic differentiation in machine learning is ubiquitous, automatic sparse differentiation (ASD) remains largely unknown. This post introduces ASD, explaining its key components and their roles in the computation of both sparse Jacobians and Hessians. We conclude with a practical demonstration showcasing the performance benefits of ASD.},
+	booktitle = {{ICLR} blogposts 2025},
+	author = {Hill, Adrian and Dalle, Guillaume and Montoison, Alexis},
+	month = apr,
+	year = {2025},
+	note = {tex.abbr: Blog post
+tex.blog: https://iclr-blogposts.github.io/2025/blog/sparse-autodiff/},
+}
+
+@misc{montoisonRevisitingSparseMatrix2025,
+	title = {Revisiting {Sparse} {Matrix} {Coloring} and {Bicoloring}},
+	url = {http://arxiv.org/abs/2505.07308},
+	doi = {10.48550/arXiv.2505.07308},
+	abstract = {Sparse matrix coloring and bicoloring are fundamental building blocks of sparse automatic differentiation. Bicoloring is particularly advantageous for rectangular Jacobian matrices with at least one dense row and column. Indeed, in such cases, unidirectional row or column coloring demands a number of colors equal to the number of rows or columns. We introduce a new strategy for bicoloring that encompasses both direct and substitution-based decompression approaches. Our method reformulates the two variants of bicoloring as star and acyclic colorings of an augmented symmetric matrix. We extend the concept of neutral colors, previously exclusive to bicoloring, to symmetric colorings, and we propose a post-processing routine that neutralizes colors to further reduce the overall color count. We also present the Julia package SparseMatrixColorings, which includes these new bicoloring algorithms alongside all standard coloring methods for sparse derivative matrix computation. Compared to ColPack, the Julia package also offers enhanced implementations for star and acyclic coloring, vertex ordering, as well as decompression.},
+	urldate = {2025-05-13},
+	publisher = {arXiv},
+	author = {Montoison, Alexis and Dalle, Guillaume and Gebremedhin, Assefaw},
+	month = may,
+	year = {2025},
+	note = {arXiv:2505.07308 [math]
+tex.abbr: Preprint
+tex.code: https://github.com/gdalle/SparseMatrixColorings.jl},
+}
+
+@article{hillSparserBetterFaster2025,
+	title = {Sparser, better, faster, stronger: {Sparsity} detection for efficient automatic differentiation},
+	issn = {2835-8856},
+	url = {https://openreview.net/forum?id=GtXSN52nIW},
+	abstract = {From implicit differentiation to probabilistic modeling, Jacobian and Hessian matrices have many potential use cases in Machine Learning (ML), but they are viewed as computationally prohibitive. Fortunately, these matrices often exhibit sparsity, which can be leveraged to speed up the process of Automatic Differentiation (AD). This paper presents advances in sparsity detection, previously the performance bottleneck of Automatic Sparse Differentiation (ASD). Our implementation of sparsity detection is based on operator overloading, able to detect both local and global sparsity patterns, and supports flexible index set representations. It is fully automatic and requires no modification of user code, making it compatible with existing ML codebases. Most importantly, it is highly performant, unlocking Jacobians and Hessians at scales where they were considered too expensive to compute. On real-world problems from scientific ML, graph neural networks and optimization, we show significant speed-ups of up to three orders of magnitude. Notably, using our sparsity detection system, ASD outperforms standard AD for one-off computations, without amortization of either sparsity detection or matrix coloring.},
+	journal = {Transactions on Machine Learning Research},
+	author = {Hill, Adrian and Dalle, Guillaume},
+	year = {2025},
+	note = {tex.abbr: Journal
+tex.pdf: https://openreview.net/pdf?id=GtXSN52nIW
+tex.code: https://github.com/adrhill/SparseConnectivityTracer.jl},
+}
+
+@article{dalleMinimaxEstimationPartiallyobserved2025,
+	title = {Minimax estimation of partially-observed vector autoregressions},
+	volume = {19},
+	issn = {1935-7524, 1935-7524},
+	url = {https://projecteuclid.org/journals/electronic-journal-of-statistics/volume-19/issue-1/Minimax-estimation-of-partially-observed-vector-autoregressions/10.1214/25-EJS2387.full},
+	doi = {10.1214/25-EJS2387},
+	abstract = {Multi-dimensional time series are a core ingredient of the statistical modeling toolkit, for which numerous estimation methods are known. But when observations are scarce or corrupted, the learning task becomes much harder. The question is: how much harder? In this paper, we study the properties of a partially-observed Vector AutoRegressive process, which is a state-space model endowed with a stochastic observation mechanism. Our goal is to estimate its transition matrix, but we only have access to a small and noisy subsample of the state components. We start by describing an estimator based on the Yule-Walker equation and the Dantzig selector, and we give an upper bound on its non-asymptotic error. Then, we provide a matching minimax lower bound, thus proving near-optimality of our estimator. The convergence rate we obtain sheds light on the role of several key parameters such as the sampling ratio, the amount of noise and the number of non-zero coefficients in the transition matrix, which can be dense in low dimension but is usually sparse in high dimension. These theoretical findings are commented and illustrated by numerical experiments on simulated data.},
+	number = {1},
+	urldate = {2025-06-17},
+	journal = {Electronic Journal of Statistics},
+	publisher = {Institute of Mathematical Statistics and Bernoulli Society},
+	author = {Dalle, Guillaume and Castro, Yohann De},
+	month = jan,
+	year = {2025},
+	note = {tex.abbr: Journal},
+	pages = {2364--2410},
+}
+
+@inproceedings{dalleOptimalPerformanceGraph2025,
+	title = {Optimal {Performance} of {Graph} {Convolutional} {Networks} on the {Contextual} {Stochastic} {Block} {Model}},
+	volume = {269},
+	issn = {2640-3498},
+	url = {https://proceedings.mlr.press/v269/dalle25a.html},
+	abstract = {For Graph Neural Networks, oversmoothing denotes the homogenization of vertex embeddings as the number of layers increases. To better understand this phenomenon, we study community detection with a linearized Graph Convolutional Network on the Contextual Stochastic Block Model. We express the distribution of the embeddings in each community as a Gaussian mixture over a low-dimensional latent space, with explicit formulas in the case of a single layer. This yields tractable estimators for classification accuracy at finite depth. Numerical experiments suggest that modeling with a single Gaussian is insufficient and that the impact of depth may be more complex than previously anticipated.},
+	language = {en},
+	urldate = {2026-03-02},
+	booktitle = {Proceedings of the {Third} {Learning} on {Graphs} {Conference}},
+	publisher = {PMLR},
+	author = {Dalle, Guillaume and Thiran, Patrick},
+	month = jul,
+	year = {2025},
+	note = {tex.abbr: Proceedings
+tex.pdf: https://proceedings.mlr.press/v269/dalle25a.html},
+	pages = {21:1--21:17},
+}
+
+@article{dalle_common_2026,
+	title = {A {Common} {Interface} for {Automatic} {Differentiation}},
+	volume = {27},
+	issn = {1533-7928},
+	url = {http://jmlr.org/papers/v27/25-1024.html},
+	abstract = {For scientific machine learning tasks with a lot of custom code, picking the right Automatic Differentiation (AD) system matters. Our Julia package DifferentiationInterface.jl provides a common frontend to a dozen AD backends, unlocking easy comparison and modular development. In particular, its built-in preparation mechanism leverages the strengths of each backend by amortizing one-time computations. This is key to enabling sophisticated features like sparsity handling without putting additional burdens on the user.},
+	number = {25},
+	urldate = {2026-03-03},
+	journal = {Journal of Machine Learning Research},
+	author = {Dalle, Guillaume and Hill, Adrian},
+	year = {2026},
+	note = {tex.abbr: Journal
+tex.code: https://github.com/JuliaDiff/DifferentiationInterface.jl},
+	pages = {1--13},
 }
