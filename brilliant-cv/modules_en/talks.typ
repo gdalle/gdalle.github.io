@@ -1,5 +1,5 @@
 // Imports
-#import "@preview/brilliant-cv:2.0.3": cvSection, cvPublication
+#import "@preview/brilliant-cv:2.0.3": cvPublication, cvSection
 #let metadata = toml("../metadata.toml")
 #let cvSection = cvSection.with(metadata: metadata)
 
@@ -7,10 +7,17 @@
 
 == Conferences
 
+=== 2025
+
+- RT Optimisation: _Linear and combinatorial optimization on GPUs_ (#link("https://indico.math.cnrs.fr/event/14650/contributions/14719/")[poster session])
+- Royal Statistical Society International Conference: _Teaching with Julia_ (#link("https://virtual.oxfordabstracts.com/event/40660/submission/492")[abstract])
+- ROADEF: _Decision-focused learning: software meets theory_ (#link("https://roadef2025.org/wp-content/uploads/2025/02/ROADEF2025_resumes.pdf")[abstract])
+
 === 2024
 
 - PyData Global: _Automatic differentiation: a tale of two languages_ (#link("https://global2024.pydata.org/cfp/talk/QZXXWN/")[abstract])
-- JuliaCon: _ Gradients for everyone: a quick guide to autodiff in Julia_ (#link("https://pretalx.com/juliacon2024/talk/review/LVWUEAR3WQCDAEF8ZFJMBFF7ALNBFATN")[abstract])
+- Julia Optimization Days: _Automatic differentiation: Julia’s most confusing superpower?_ (#link("https://indico.mathrice.fr/event/604/book-of-abstracts.pdf#page=5")[abstract])
+- JuliaCon: _Gradients for everyone: a quick guide to autodiff in Julia_ (#link("https://pretalx.com/juliacon2024/talk/review/LVWUEAR3WQCDAEF8ZFJMBFF7ALNBFATN")[abstract])
 - JuliaCon: _Fast and generic Hidden Markov Models_ (#link("https://pretalx.com/juliacon2024/talk/review/ZN3YKLENQLLRPYSZZWEJCW7CK8TE8F7H")[abstract])
 - JuliaCon: _Interfaces.jl: base and package interface tests for your objects_ (#link("https://pretalx.com/juliacon2024/talk/review/A7FGLFZKRK7LGVHJQSSWNZWVCDJRRW8E")[abstract])
 
@@ -38,12 +45,25 @@
 
 == Invitations & seminars
 
+=== 2025
+
+- Cycle de conférences SMAI & Musée des arts et métiers: _Des mathématiques pour faire rouler des trains_ (web page, slides)
+- AdONE Summer School on Optimization-augmented Machine Learning: _Introduction to automatic differentiation_ & _Advanced automatic differentiation_
+- Laboratoire Jean Kuntzmann, Grenoble: _Sparser, better, faster, stronger - automatic differentiation with a lot of zeros_
+- Laboratoire Ville Mobilité Transport: _Mixing data, optimization and decision: the role of automatic differentiation_
+- Califrais, Paris: _A tutorial on algorithmic differentiation_
+- Julia Meetup Paris: _Automatic differentiation: a tale of two languages_
+- Inria Paris: _Sparse automatic differentiation - from theory to practice_
+
 === 2024
 
+- INDY lab, EPFL: _Sparse automatic differentiation - the fastest Jacobians in the West_
+- INDY lab, EPFL: _A primer on algorithmic differentiation_
 - Institut de Mathématiques de Bourgogne: _Deep learning meets combinatorial optimization - a tale of missing gradients_ (#link("https://indico.math.cnrs.fr/event/10984/")[abstract])
 
 === 2023
 
+- Forum Entreprises & Mathématiques: _Railway to shell: des trains, des maths et du code_
 - Swiss Data Science Center: _Every solution, everywhere, all at once: turning optimization solvers into probability distributions_
 
 === 2022

@@ -1,5 +1,5 @@
 // Imports
-#import "@preview/brilliant-cv:2.0.3": cvSection, cvEntry
+#import "@preview/brilliant-cv:2.0.3": cvEntry, cvSection
 #let metadata = toml("../metadata.toml")
 #let cvSection = cvSection.with(metadata: metadata)
 #let cvEntry = cvEntry.with(metadata: metadata)
@@ -8,41 +8,41 @@
 #cvSection("Professional Experience")
 
 #cvEntry(
-    title: [Researcher],
-    society: [École Nationale des Ponts et Chaussées],
-    date: [2025 - present],
-    location: [Champs-sur-Marne, France],
-    description: list(
-        [Applied mathematics for transportation systems],
-    )
+  title: [Researcher],
+  society: [École nationale des ponts et chaussées],
+  date: [2025 - present],
+  location: [Champs-sur-Marne, France],
+  description: list(
+    [Applied mathematics for transportation systems],
+  ),
 )
 
 #cvEntry(
-    title: [Postdoctoral researcher],
-    society: [École polytechnique fédérale de Lausanne],
-    date: [2023 - 2024],
-    location: [Lausanne, Switzerland],
-    description: list(
-        [Theoretical study of graph neural networks],
-    )
+  title: [Postdoctoral researcher],
+  society: [École polytechnique fédérale de Lausanne],
+  date: [2023 - 2024],
+  location: [Lausanne, Switzerland],
+  description: list(
+    [Theoretical study of graph neural networks],
+  ),
 )
 
 #cvEntry(
-    title: [Research intern],
-    society: [Électricité de France R&D],
-    date: [2018],
-    location: [Chatou, France],
-    description: list(
-        [Markovian models for soiling estimation & cleaning optimization in solar power plants],
-    )
+  title: [Research intern],
+  society: [Électricité de France R&D],
+  date: [2018],
+  location: [Chatou, France],
+  description: list(
+    [Markovian models for soiling estimation & cleaning optimization in solar power plants],
+  ),
 )
 
 #cvEntry(
-    title: [Software development intern],
-    society: [Foris AI],
-    date: [2017],
-    location: [Santiago, Chile],
-    description: list(
-        [Linear Programming & local search for university timetabling],
-    )
+  title: [Software development intern],
+  society: [Foris AI],
+  date: [2017],
+  location: [Santiago, Chile],
+  description: list(
+    [Linear Programming & local search for university timetabling],
+  ),
 )

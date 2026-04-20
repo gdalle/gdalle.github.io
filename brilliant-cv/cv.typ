@@ -19,19 +19,11 @@
 #importModules((
   "professional",
   "education",
-))
-#pagebreak()
-#importModules((
+  "projects",
   "publications",
   "talks",
-))
-#pagebreak()
-#importModules((
   "teaching",
   "mentoring",
-))
-#pagebreak()
-#importModules((
   "community",
   "awards",
   "skills",
