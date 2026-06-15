@@ -8,15 +8,15 @@
 
 #cvSkill(
   type: [Languages],
-  info: [English #hBar() French #hBar() German #hBar() Spanish]
+  info: [English #hBar() French #hBar() German #hBar() Spanish],
 )
 
 #cvSkill(
   type: [Programming],
-  info: [Julia #hBar() Python #hBar() Git(Hub) #hBar() LaTeX]
+  info: [Julia #hBar() Python #hBar() Rust #hBar() Git(Hub) #hBar() LaTeX #hBar() Typst],
 )
 
 #cvSkill(
   type: [Personal Interests],
-  info: [Music #hBar() Songwriting #hBar() Board games #hBar() Bouldering]
+  info: [Music #hBar() Songwriting #hBar() Board games #hBar() Running #hBar() Bouldering],
 )
