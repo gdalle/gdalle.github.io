@@ -27,13 +27,14 @@ nav_order: 6
 
 - [Antoine Buttier](https://www.linkedin.com/in/antoine-buttier/), EPFL: Accelerated traffic assignment (2025)
 - [Yasmin Van Den Broek](https://www.linkedin.com/in/yasmin-van-den-broek-b5b5a3213/), ENPC: _A Decision-Focused Learning Approach for Multi-Agent Pathfinding_ (2025)
-- [Antoine Buttier](https://www.linkedin.com/in/antoine-buttier/), EPFL: _Accelerating sparse linear algebra and GraphBLAS with GPUs_
+- [Antoine Buttier](https://www.linkedin.com/in/antoine-buttier/), EPFL: _Accelerating sparse linear algebra and GraphBLAS with GPUs_ (2024)
 - [Robin Bochatay](https://www.linkedin.com/in/robin-bochatay-56066127a/), EPFL: _Speeding up Railway Generation and Train Simulation for the Flatland Challenge_ (2024)
 - [Oleg Fafurin](https://www.linkedin.com/in/olegfafurin/), EPFL: _Graph algorithms in Julia_ (2024)
 
 ### Group
 
 - _Experimentation with parallel graph algorithms_ (2024)
+- _Optimized dorm room assignment_ (2022)
 - _Pathfinding in historical maps_ (2022)
 - _[Multimodal transit routing](https://www.youtube.com/watch?v=bQ0FSKwVTw0)_ (2020)
 - _Train shunting_ (2020)

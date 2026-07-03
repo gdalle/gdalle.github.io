@@ -23,8 +23,8 @@
   date: [ongoing],
   location: [],
   description: list(
-    [Reviewer for scientific journals: #link("https://jmlr.org/tmlr/")[Transactions on Machine Learning Research], #link("https://joss.theoj.org/")[Journal of Open Source Software], #link("https://pubsonline.informs.org/journal/trsc")[Transportation Science], #link("https://www.sciencedirect.com/journal/transportation-research")[Transportation Research]],
-    [Reviewer for conferences: #link("https://neurips.cc/")[NeurIPS] (2023, 2025), #link("https://icml.cc/")[ICML] (2023), #link("https://logconference.org/")[Learning on Graphs] (2024, 2025), #link("https://juliacon.org/")[JuliaCon] (2021-2025)],
+    [Reviewer for scientific journals: #link("https://jmlr.org/tmlr/")[Transactions on Machine Learning Research] (expert reviewer), #link("https://joss.theoj.org/")[Journal of Open Source Software], #link("https://pubsonline.informs.org/journal/trsc")[Transportation Science], #link("https://www.sciencedirect.com/journal/transportation-research")[Transportation Research]],
+    [Reviewer for conferences: #link("https://neurips.cc/")[NeurIPS] (2023, 2025), #link("https://icml.cc/")[ICML] (2023), #link("https://logconference.org/")[Learning on Graphs] (2024, 2025), #link("https://juliacon.org/")[JuliaCon] (2021-2026)],
   ),
 )
 

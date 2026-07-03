@@ -22,6 +22,14 @@
 )
 
 #cvHonor(
+  date: [2024],
+  title: [EURO Excellence in Practice Award (finalist)],
+  issuer: link(
+    "https://www.euro-online.org/web/pages/1726/eepa-finalists-2024",
+  )[The Association of European Operations Research Societies],
+)
+
+#cvHonor(
   date: [2023],
   title: [PhD award for mathematics in industry],
   issuer: link(
