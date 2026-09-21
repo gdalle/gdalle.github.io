@@ -19,6 +19,7 @@ Guest lecturer:
 Teaching assistant:
 
 - 1OPTI: [**Introduction to optimization**](https://educnet.enpc.fr/enrol/index.php?id=567)
+- REOP: [**Operations research**](https://gdalle.github.io/REOP2026/)
 
 Guest lecturer:
 
