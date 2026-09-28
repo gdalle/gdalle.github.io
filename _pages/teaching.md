@@ -11,15 +11,15 @@ nav_order: 5
 
 Guest lecturer:
 
-- APOC: [**Deep learning for combinatorial optimization**](https://uma.ip-paris.fr/mpro/seconde-annee-du-mpro/apprentissage-profond-pour-les-problemes-doptimisation-combinatoire-apoc) ([slides](https://github.com/gdalle/MPROCourses/tree/1b9b9ca741dceda5013914ce837cdc54c2c04ad0/ROAPA))
+- APOC: [**Deep learning for combinatorial optimization**](https://uma.ip-paris.fr/mpro/seconde-annee-du-mpro/apprentissage-profond-pour-les-problemes-doptimisation-combinatoire-apoc) ([slides](https://github.com/gdalle/MPROCourses/tree/main/ROAPA))
 - DECO: [**Decomposition methods for integer programming**](https://uma.ip-paris.fr/mpro/seconde-annee-du-mpro/methodes-de-decomposition-en-programmation-lineaire-en-nombres-entiers-deco) ([notes](https://github.com/gdalle/MPROCourses/tree/main/DECO))
 
 ## ENPC (2025-ongoing)
 
 Teaching assistant:
 
-- 1OPTI: [**Introduction to optimization**](https://educnet.enpc.fr/enrol/index.php?id=567)
-- REOP: [**Operations research**](https://gdalle.github.io/REOP2026/)
+- 1OPTI: [**Introduction to optimization**](https://educnet.enpc.fr/course/view.php?id=567)
+- REOP: [**Operations research**](https://educnet.enpc.fr/course/view.php?id=1215) ([website](https://gdalle.github.io/REOP2026/))
 
 Guest lecturer:
 
