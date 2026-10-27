@@ -8,5 +8,5 @@
 
 #cvPublication(
   bib: bibliography("../src/papers.bib"),
-  refStyle: "ieee",
+  refStyle: "chicago-author-date",
 )

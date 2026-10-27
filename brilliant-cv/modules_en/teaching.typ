@@ -7,15 +7,35 @@
 #cvSection("Teaching")
 
 #cvEntry(
-  title: [Teaching assistant & guest lecturer],
+  title: [Lecturer],
+  society: [Master Parisien de Recherche Opérationnelle],
+  date: [2026 - present],
+  location: [Paris, France],
+  description: list(
+    [RORT: Operations research for networks and transport (#link("https://uma.ensta.ip-paris.fr/mpro/recherche-operationnelle-pour-les-reseaux-et-le-transport-rort")[course page])],
+  ),
+)
+
+#cvEntry(
+  title: [Teaching assistant],
   society: [École nationale des ponts et chaussées],
   date: [2025 - present],
   location: [Champs-sur-Marne, France],
   description: list(
+    [REOP: Operations research (#link("https://educnet.enpc.fr/enrol/index.php?id=1215")[course page])],
+    [1OPTI: Introduction to optimization (#link("https://educnet.enpc.fr/enrol/index.php?id=567")[course page])],
+    [MCNDU: Mobilité connectée : nouvelles données, nouveaux usages (#link("https://educnet.enpc.fr/enrol/index.php?id=792")[course page])],
+  ),
+)
+
+#cvEntry(
+  title: [Guest lecturer],
+  society: [Master Parisien de Recherche Opérationnelle],
+  date: [2025],
+  location: [Champs-sur-Marne, France],
+  description: list(
     [APOC: Deep learning for combinatorial optimization (#link("https://uma.ip-paris.fr/mpro/seconde-annee-du-mpro/apprentissage-profond-pour-les-problemes-doptimisation-combinatoire-apoc")[course page])],
     [DECO: Decomposition methods for integer programming (#link("https://uma.ip-paris.fr/mpro/seconde-annee-du-mpro/methodes-de-decomposition-en-programmation-lineaire-en-nombres-entiers-deco")[course page]))],
-    [MCNDU: Mobilité connectée : nouvelles données, nouveaux usages (#link("https://educnet.enpc.fr/enrol/index.php?id=792")[course page])],
-    [1OPTI: Introduction to optimization (#link("https://educnet.enpc.fr/enrol/index.php?id=567")[course page])],
   ),
 )
 
