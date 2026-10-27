@@ -16,3 +16,22 @@
     [Project website: #link("https://acme-mobidec.github.io/")],
   ),
 )
+
+#cvEntry(
+  title: [DICE (_Decision via Iterative Combinatorial Encoding_)],
+  society: [Programme Gaspard Monge pour l'Optimisation (PRMO Young Researchers project)],
+  date: [2026-2027],
+  description: list(
+    [Repeatedly solving parametric optimization problems without
+      starting from scratch again and again],
+  ),
+)
+
+#cvEntry(
+  title: [POPTRACE],
+  society: [Lab Recherche Environnement Vinci - ParisTech],
+  date: [2026-2027],
+  description: list(
+    [AI and machine learning to augment mobile phone traces and integrate them into transportation models],
+  ),
+)
