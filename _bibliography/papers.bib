@@ -1,3 +1,15 @@
+@inproceedings{boussangeLearningSpatialEcological2026,
+  title = {Learning {{Spatial Ecological Networks}} from {{Geolocated Molecular}} and {{Earth Observation Data}}},
+  booktitle = {Tackling {{Climate Change}} with {{Machine Learning}} Workshop ({{TCCML}})},
+  author = {Boussange, Victor and Dalle, Guillaume and Missillier, Fanny Marie and Thiran, Patrick},
+  year = 2026,
+  month = oct,
+  url = {https://openreview.net/forum?id=2YoS8katyA},
+  abbr = {Workshop},
+  abstract = {Ecological populations exchange genes through dispersal, forming spatial ecological networks whose integrity underpins species resilience and underlying ecosystem processes. Inverse landscape genetics (ILG) seeks to recover these networks by learning an associated conductance grid graph whose edge weights encode local landscape permeability to movement, so that the effective resistance it induces between sampled populations predicts their genetic dissimilarity. Existing approaches learn these conductances through low-capacity encoders informed by coarse-grained, feature-engineered covariates, limiting their ability to capture the effect of fine-grained landscape features on ecological connectivity. We introduce a differentiable, GPU-accelerated ILG pipeline, fully integrated in the JAX ecosystem, that enables training a flexible patch encoder end-to-end through an effective-resistance layer. On an empirical dataset, our pipeline outperforms both \textbackslash texttt\textbraceleft ResistanceGA\textbraceright, the classical ILG framework used by practitioners, and a fully data-driven metric-learning approach in predicting held-out genetic dissimilarities. With the covariates used in this case study, a deep convolutional encoder shows no clear advantage over a low-capacity one; yet training deep encoders end-to-end on Earth observation data opens new opportunities for ILG, with potential benefits for protected-area network design, invasive-species mitigation, and biodiversity-aware renewable-energy planning.},
+  langid = {english}
+}
+
 @article{bouvierSolvingContinentScaleInventory2023,
   title = {Solving a {{Continent-Scale Inventory Routing Problem}} at {{Renault}}},
   author = {Bouvier, Louis and Dalle, Guillaume and Parmentier, Axel and Vidal, Thibaut},
@@ -15,7 +27,7 @@
 }
 
 @inproceedings{clarteAnalysisBootstrapSubsampling2024,
-  title = {Analysis of {{Bootstrap}} and {{Subsampling}} in {{High-dimensional Regularized Regression}}},
+  title = {Analysis of {{Bootstrap}} and {{Subsampling}} in {{High}}-Dimensional {{Regularized Regression}}},
   booktitle = {The 40th {{Conference}} on {{Uncertainty}} in {{Artificial Intelligence}}},
   author = {Clart{\'e}, Lucas and Vandenbroucque, Adrien and Dalle, Guillaume and Loureiro, Bruno and Krzakala, Florent and Zdeborova, Lenka},
   year = 2024,
@@ -91,8 +103,7 @@
   abstract = {This thesis investigates the frontier between machine learning and combinatorial optimization, two active areas of applied mathematics research. We combine theoretical insights with efficient algorithms, and develop several open source Julia libraries. Inspired by a collaboration with the Soci\'et\'e nationale des chemins de fer fran\c cais (SNCF), we study high-impact use cases from the railway world: train failure prediction, delay propagation, and track allocation. In Part I, we provide mathematical background and describe software implementations for various tools that will be needed later on: implicit differentiation, temporal point processes, Hidden Markov Models and Multi-Agent Path Finding. Our publicly available code fills a void in the Julia package ecosystem, aiming at ease of use without compromising on performance. In Part II, we highlight theoretical contributions related to both statistics and decision-making. We consider a Vector AutoRegressive process with partial observations, and prove matching upper and lower bounds on the estimation error. We unify and extend the state of the art for combinatorial optimization layers in deep learning, gathering various approaches in a Julia library called InferOpt.jl. We also seek to differentiate through multi-objective optimization layers, which leads to a novel theory of lexicographic convex analysis. In Part III, these mathematical and algorithmic foundations come together to tackle railway problems. We design a hierarchical model of train failures, propose a graph-based framework for delay propagation, and suggest new avenues for track allocation, with the Flatland challenge as a testing ground.},
   langid = {english},
   pdf = {https://pastel.hal.science/tel-04053322},
-  school = {\'Ecole des Ponts ParisTech},
-  annotation = {HAL\_ID: tel-04053322}
+  school = {\'Ecole des Ponts ParisTech}
 }
 
 @article{dalleMinimaxEstimationPartiallyobserved2025,
@@ -127,6 +138,24 @@
   abstract = {For Graph Neural Networks, oversmoothing denotes the homogenization of vertex embeddings as the number of layers increases. To better understand this phenomenon, we study community detection with a linearized Graph Convolutional Network on the Contextual Stochastic Block Model. We express the distribution of the embeddings in each community as a Gaussian mixture over a low-dimensional latent space, with explicit formulas in the case of a single layer. This yields tractable estimators for classification accuracy at finite depth. Numerical experiments suggest that modeling with a single Gaussian is insufficient and that the impact of depth may be more complex than previously anticipated.},
   langid = {english},
   pdf = {https://proceedings.mlr.press/v269/dalle25a.html}
+}
+
+@misc{hillAsdexAutomaticSparse2026,
+  title = {Asdex: {{Automatic Sparse Differentiation}} in {{JAX}}},
+  shorttitle = {Asdex},
+  author = {Hill, Adrian and Dalle, Guillaume},
+  year = 2026,
+  month = oct,
+  number = {arXiv:2610.12336},
+  eprint = {2610.12336},
+  primaryclass = {cs.MS},
+  publisher = {arXiv},
+  doi = {10.48550/arXiv.2610.12336},
+  url = {http://arxiv.org/abs/2610.12336},
+  abbr = {Preprint},
+  abstract = {Many tasks in scientific computing and machine learning require the Jacobian or Hessian matrix of a function. Automatic differentiation (AD) computes these derivatives to machine precision, but materializing a dense \$m \textbackslash times n\$ Jacobian requires \$n\$ forward-mode or \$m\$ reverse-mode AD passes, one per column or row. For a large class of functions, each output depends on only a few inputs, making the derivative matrix sparse. Automatic sparse differentiation (ASD) exploits this structure in four steps: detection of the input-agnostic sparsity pattern, coloring of a graph to group columns or rows that can share an AD pass, compressed differentiation to compute a compressed derivative matrix with one AD pass per color, and finally decompression into the original sparsity pattern. The number of colors, and hence of AD passes, is often independent of the problem dimension: a banded Jacobian with \$b\$ contiguous bands, for instance, only ever requires \$b\$ colors, regardless of its size. asdex offers the first standalone ASD toolkit in the popular JAX ecosystem. With \$\textbackslash texttt\textbraceleft asdex.jacobian\textbraceright\$ and \$\textbackslash texttt\textbraceleft asdex.hessian\textbraceright\$, it provides sparse drop-in replacements for \$\textbackslash texttt\textbraceleft jax.jacobian\textbraceright\$ and \$\textbackslash texttt\textbraceleft jax.hessian\textbraceright\$.},
+  archiveprefix = {arXiv},
+  code = {https://github.com/adrhill/asdex}
 }
 
 @inproceedings{hillIllustratedGuideAutomatic2025,

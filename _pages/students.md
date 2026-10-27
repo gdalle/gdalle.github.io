@@ -7,6 +7,9 @@ nav: true
 nav_order: 6
 ---
 
+If you are a student who wants to work with me, send me an email!
+Also check out the [ACME project job offers](https://acme-mobidec.github.io/jobs/) in case one of them suits you.
+
 ## Postdoctoral researchers
 
 - [Amaury Jacques](https://www.labri.fr/perso/amjacques/me/), ENPC: _Efficient & parallel graph algorithms for decision-focused learning in logistics_ (2026-2028)

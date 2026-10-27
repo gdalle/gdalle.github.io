@@ -9,6 +9,11 @@ nav_order: 8
 
 ## Conferences
 
+### 2026
+
+- [hEART Side Event: Advancing Mobility Research](https://heart2026.fr/side-event-advancing-mobility-research): _Multimodal Collaborative Eco-friendly Logistics: the ACME project_
+- [JuliaCon](https://juliacon.org/2026/): _Hardware-agnostic linear programming on the GPU_ ([abstract](https://pretalx.com/juliacon-2026/talk/WGCTSX/), [slides](https://gdalle.github.io/JuliaCon2026/), [recording](https://www.youtube.com/watch?v=lGIU5GOEMuw))
+
 ### 2025
 
 - [RT Optimisation](https://indico.math.cnrs.fr/event/14650/): _Linear and combinatorial optimization on GPUs_ (poster)
@@ -46,6 +51,13 @@ nav_order: 8
 - [PGMO Days](https://www.fondation-hadamard.fr/en/articles/2022/02/02/pgmodays-2019/): _Delay propagation on a suburban railway network_ ([abstract](https://www.easychair.org/smart-program/PGMODAYS2019/2019-12-04.html#talk:136943))
 
 ## Invitations & seminars
+
+### 2026
+
+- LIRMM, Montpellier: _Speeding up operations research algorithms on parallel hardware_ ([blackboard notes](https://gdalle.github.io/LIRMM2026/))
+- CERMICS summer school: _Computational tools for decision-focused learning_ ([slides](https://gdalle.github.io/CERMICSFrejus2026/))
+- GDR-ROD Scientific Council, Paris: _Accelerating combinatorial optimization_ ([slides](https://gdalle.github.io/GDR-ROD-CS2026/))
+- Califrais workshop, Paris: _Accelerating graph algorithms_ ([slides](https://gdalle.github.io/CalifraisWorkshop2026/))
 
 ### 2025
 
