@@ -7,6 +7,16 @@
 #cvSection("Mentoring")
 
 #cvEntry(
+  title: [Postdoc supervisor],
+  society: [École nationale des ponts et chaussées],
+  date: [2026 - ongoing],
+  location: [Champs-sur-Marne, France],
+  description: list(
+    [#link("https://scholar.google.com/citations?user=-tOrjnkAAAAJ&hl=fr")[Amaury Jacques] (2026-2028,): _Efficient & parallel graph algorithms for decision-focused learning in logistics_],
+  ),
+)
+
+#cvEntry(
   title: [PhD supervisor],
   society: [École nationale des ponts et chaussées],
   date: [2026 - ongoing],

@@ -7,6 +7,11 @@
 
 == Conferences
 
+=== 2026
+
+- hEART Side Event: Advancing Mobility Research: _Multimodal Collaborative Eco-friendly Logistics: the ACME project_
+- JuliaCon: _Hardware-agnostic linear programming on the GPU_ (#link("https://pretalx.com/juliacon-2026/talk/WGCTSX/")[abstract])
+
 === 2025
 
 - RT Optimisation: _Linear and combinatorial optimization on GPUs_ (#link("https://indico.math.cnrs.fr/event/14650/contributions/14719/")[poster session])
@@ -44,6 +49,13 @@
 - PGMO Days: _Delay propagation on a suburban railway network_ (#link("https://www.easychair.org/smart-program/PGMODAYS2019/2019-12-04.html#talk:136943")[abstract])
 
 == Invitations & seminars
+
+=== 2026
+
+- LIRMM, Montpellier: _Speeding up operations research algorithms on parallel hardware_
+- CERMICS summer school: _Computational tools for decision-focused learning_
+- GDR-ROD Scientific Council, Paris: _Accelerating combinatorial optimization_
+- Califrais workshop, Paris: _Accelerating graph algorithms_
 
 === 2025
 

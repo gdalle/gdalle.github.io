@@ -20,11 +20,21 @@
   "professional",
   "education",
   "projects",
+))
+
+#pagebreak()
+
+#importModules((
   "publications",
-  "talks",
-  "teaching",
-  "mentoring",
-  "community",
   "awards",
   "skills",
+))
+
+#pagebreak()
+
+#importModules((
+  "teaching",
+  "community",
+  "mentoring",
+  "talks",
 ))
