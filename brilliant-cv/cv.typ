@@ -19,15 +19,14 @@
 #importModules((
   "professional",
   "education",
-  "projects",
 ))
 
 #pagebreak()
 
 #importModules((
   "publications",
+  "projects",
   "awards",
-  "skills",
 ))
 
 #pagebreak()
@@ -37,4 +36,5 @@
   "community",
   "mentoring",
   "talks",
+  "skills",
 ))
